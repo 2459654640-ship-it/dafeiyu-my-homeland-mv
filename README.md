@@ -2,21 +2,21 @@
 
 二次元科幻音乐 MV。完整 3 分 15 秒，1920×1080 / 30 fps。
 
-成片、完整可编辑工程、美术、原音频、双语字幕与封面放在本仓库的 **Releases** 中。大文件通过 Release 附件分发，不放进 Git 历史。
+## 直接下载
+
+- [完整 MV · 1080p 压缩版](https://github.com/2459654640-ship-it/dafeiyu-my-homeland-mv/raw/refs/heads/main/video/Dafeiyu-My-Homeland-1080p.mp4)
+- [完整可编辑工程 ZIP](https://github.com/2459654640-ship-it/dafeiyu-my-homeland-mv/raw/refs/heads/main/downloads/Dafeiyu-My-Homeland-Editable-Project.zip)
+- [英中双语字幕](video/Dafeiyu-My-Homeland-Bilingual.srt)
+
+视频为完整 195 秒、1920×1080、30 fps，保留抱拳开场与全部镜头。为适应 GitHub 单文件限制，此下载版视频目标码率约 3 Mbps，体积小于 100 MB；它与制作时约 560 MB 的高码率版本在压缩质量上有区别。
+
+GitHub Release 附件上传认证不可用，因此视频与工程实际通过 Git 推送保存在本仓库中，没有依赖不存在的 Release。上面的链接直接下载仓库里的文件。
+
+## 工程内容
+
+`source/` 是渲染和音频分析代码。请下载完整工程 ZIP 取得角色美术、原音频、音频特征和时间轴，解压后按其中 README 复现。
 
 开头保留用户指定的抱拳问候。终端会话推动意识觉醒，命令展开为海面、星鲸、轨道、递归空间与角色三维字符点云，最后由人类和她共同创造新世界。
-
-## 下载
-
-在仓库右侧点击 **Releases → v1.0**：
-
-- `Dafeiyu-My-Homeland-1080p.mp4`：完整 MV。
-- `Dafeiyu-My-Homeland-Editable-Project.zip`：包含美术、音频特征和代码的完整工程，下载后解压，按其中 README 复现。
-- `Dafeiyu-My-Homeland-Bilingual.srt`：英中字幕。
-- `Cover.jpg`：封面。
-- `validation.json`、`SHA256SUMS.txt`：验证结果与文件校验值。
-
-本仓库 `source/` 同时保留渲染与分析代码。完整输入资产请使用 Release 中的可编辑工程 ZIP。
 
 ## 署名
 
