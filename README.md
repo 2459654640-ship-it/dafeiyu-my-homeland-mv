@@ -1,3 +1,17 @@
+# 大肥鱼我的家乡 · v3.2 最终修改版
+
+**[高清成品](https://github.com/2459654640-ship-it/dafeiyu-my-homeland-mv/raw/refs/heads/main/masters/Dafeiyu-My-Homeland-v3.2-1080p60-Master.mp4)** · 1080p60 · 195 秒 · 600 MB。
+
+[完整可编辑工程](https://github.com/2459654640-ship-it/dafeiyu-my-homeland-mv/raw/refs/heads/main/downloads/Dafeiyu-v3.2-Editable-Project.zip) · [全部 AI 生图素材](https://github.com/2459654640-ship-it/dafeiyu-my-homeland-mv/raw/refs/heads/main/downloads/Dafeiyu-All-AI-Artwork.zip)
+
+本次仅调整片头与片尾标题为衬线字体，重新编排片尾署名：音乐原作《大东北我的家乡》，改编梨茗子，角色原作上善，女仆设计 ZipZipPipe。直接列出视觉制作与参考，不再使用“见项目说明”的片尾文案。其余画面沿用 v3.1。
+
+[源码与独立渲染说明](v3.2/README.md) · [媒体检查](docs/v3.2/validation-v3.2.json)
+
+![新开屏](docs/v3.2/cover.jpg)
+
+<details><summary>历史版本</summary>
+
 # 大肥鱼我的家乡 · v3.1 最小修改成品
 
 **[下载高清高码率完整版](https://github.com/2459654640-ship-it/dafeiyu-my-homeland-mv/raw/refs/heads/main/masters/Dafeiyu-My-Homeland-v3.1-1080p60-Master.mp4)** · 1080p60 · 195 秒 · 625 MB。
@@ -54,6 +68,8 @@ MP4 使用 Git LFS 保存；上面的直链提供实际视频文件。GitHub 文
 [v2 完整 MV](video/Dafeiyu-My-Homeland-v2-1080p.mp4) / [v2 可编辑工程](downloads/Dafeiyu-v2-Editable-Project.zip) / [v2 说明](v2/README.md)。
 
 [v1 视频](video/Dafeiyu-My-Homeland-1080p.mp4) / [v1 工程](downloads/Dafeiyu-My-Homeland-Editable-Project.zip)。
+
+</details>
 
 </details>
 
