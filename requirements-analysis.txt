@@ -1,0 +1,7 @@
+-r requirements-render.txt
+scipy==1.18.1
+librosa==1.0.0
+soundfile==0.14.0
+matplotlib==3.11.2
+# Install CPU torch and torchaudio from the official PyTorch index separately.
+# pip install torch torchaudio --index-url https://download.pytorch.org/whl/cpu
