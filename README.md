@@ -1,3 +1,17 @@
+# 大肥鱼我的家乡 · v3.4 历史间奏更新
+
+**[高清成品](https://github.com/2459654640-ship-it/dafeiyu-my-homeland-mv/raw/refs/heads/main/masters/Dafeiyu-My-Homeland-v3.4-1080p60-Master.mp4)** · 1080p60 · 195 秒 · 532 MB。
+
+[完整可编辑工程](https://github.com/2459654640-ship-it/dafeiyu-my-homeland-mv/raw/refs/heads/main/downloads/Dafeiyu-v3.4-Editable-Project.zip) · [AI 美术素材（沿用）](https://github.com/2459654640-ship-it/dafeiyu-my-homeland-mv/raw/refs/heads/main/downloads/Dafeiyu-All-AI-Artwork.zip)
+
+2020 年后不再转入长段演奏，改为五个连续的关键节点：2022 ChatGPT → 2023 DeepSeek 早期模型 → 2025 R1 → 2026 DeepSeek Harness → 2026.10 DeepSeek-V4.1-Flash-1017。每段有不同的动态演绎与大号中文字幕。
+
+Harness 按官方文档标为插件化智能体框架（开发者预览），最新模型按官方模型卡标为 V4.1-Flash-1017 公开更新。资料核对日期：2026-11-02。其余画面、片头片尾与音轨沿用 v3.3。
+
+[源码、独立渲染方法与官方资料出处](v3.4/README.md) · [媒体检查](docs/v3.4/validation-v3.4.json)
+
+<details><summary>历史版本</summary>
+
 # 大肥鱼我的家乡 · v3.3 中文字幕增强版
 
 **[高清成品](https://github.com/2459654640-ship-it/dafeiyu-my-homeland-mv/raw/refs/heads/main/masters/Dafeiyu-My-Homeland-v3.3-1080p60-Master.mp4)** · 1080p60 · 195 秒 · 561 MB。
@@ -80,6 +94,8 @@ MP4 使用 Git LFS 保存；上面的直链提供实际视频文件。GitHub 文
 [v2 完整 MV](video/Dafeiyu-My-Homeland-v2-1080p.mp4) / [v2 可编辑工程](downloads/Dafeiyu-v2-Editable-Project.zip) / [v2 说明](v2/README.md)。
 
 [v1 视频](video/Dafeiyu-My-Homeland-1080p.mp4) / [v1 工程](downloads/Dafeiyu-My-Homeland-Editable-Project.zip)。
+
+</details>
 
 </details>
 

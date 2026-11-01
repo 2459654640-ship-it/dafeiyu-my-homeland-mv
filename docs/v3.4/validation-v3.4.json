@@ -1,0 +1,69 @@
+{
+  "programs": [],
+  "stream_groups": [],
+  "streams": [
+    {
+      "codec_name": "h264",
+      "profile": "High",
+      "codec_type": "video",
+      "width": 1920,
+      "height": 1080,
+      "color_space": "bt709",
+      "r_frame_rate": "60/1",
+      "avg_frame_rate": "60/1",
+      "duration": "195.000000",
+      "bit_rate": "21520157",
+      "nb_frames": "11700"
+    },
+    {
+      "codec_name": "aac",
+      "profile": "LC",
+      "codec_type": "audio",
+      "sample_rate": "48000",
+      "channels": 2,
+      "r_frame_rate": "0/0",
+      "avg_frame_rate": "0/0",
+      "duration": "195.000000",
+      "bit_rate": "309933",
+      "nb_frames": "9142"
+    }
+  ],
+  "format": {
+    "duration": "195.000000",
+    "size": "532419312",
+    "bit_rate": "21842843"
+  },
+  "full_decode": "passed",
+  "audio_sync": [
+    {
+      "seconds": 17,
+      "offset_ms": 0.0,
+      "correlation": 0.9999082088470459
+    },
+    {
+      "seconds": 64,
+      "offset_ms": 0.0,
+      "correlation": 0.9986845850944519
+    },
+    {
+      "seconds": 143,
+      "offset_ms": 0.0,
+      "correlation": 0.9998751282691956
+    },
+    {
+      "seconds": 183,
+      "offset_ms": 0.0,
+      "correlation": 0.9992435574531555
+    }
+  ],
+  "sha256": "aafc0849f223de475e5243e43ddeba90e8b4190322722a536e88b533d245a3c2",
+  "master_encode": {
+    "crf": 13,
+    "maxrate_mbps": 45,
+    "audio_kbps": 320,
+    "audio_stream_copied": true,
+    "video_reencoded_for_transitions": true
+  },
+  "inspection": "Representative compositions, motion proof, browser decoding and full-file decoding checked. Artistic impact is not certified by these technical checks.",
+  "status": "passed"
+}
