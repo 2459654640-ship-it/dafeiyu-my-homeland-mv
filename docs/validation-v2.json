@@ -1,0 +1,54 @@
+{
+  "programs": [],
+  "stream_groups": [],
+  "streams": [
+    {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1920,
+      "height": 1080,
+      "r_frame_rate": "30/1",
+      "duration": "195.000000",
+      "nb_frames": "5850"
+    },
+    {
+      "codec_name": "aac",
+      "codec_type": "audio",
+      "sample_rate": "48000",
+      "channels": 2,
+      "r_frame_rate": "0/0",
+      "duration": "195.000000",
+      "nb_frames": "9142"
+    }
+  ],
+  "format": {
+    "duration": "195.000000",
+    "size": "83449426"
+  },
+  "full_decode": "passed",
+  "audio_sync": [
+    {
+      "seconds": 17,
+      "offset_ms": 0.0,
+      "correlation": 0.9996228218078613
+    },
+    {
+      "seconds": 64,
+      "offset_ms": 0.0,
+      "correlation": 0.9977681636810303
+    },
+    {
+      "seconds": 143,
+      "offset_ms": 0.0,
+      "correlation": 0.9991893768310547
+    },
+    {
+      "seconds": 183,
+      "offset_ms": 0.0,
+      "correlation": 0.9984883069992065
+    }
+  ],
+  "sha256": "1b2142fbb39e9edb4d36f8838fa7fc2bc03d3feaa074fbd3b3b5bce41d57b5a5",
+  "inspection": "Static layouts and authored motion proof inspected; artistic impact is not certified by these technical checks.",
+  "status": "passed"
+}
