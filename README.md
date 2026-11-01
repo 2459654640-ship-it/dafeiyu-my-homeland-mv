@@ -1,3 +1,15 @@
+# 大肥鱼我的家乡 · v3.3 中文字幕增强版
+
+**[高清成品](https://github.com/2459654640-ship-it/dafeiyu-my-homeland-mv/raw/refs/heads/main/masters/Dafeiyu-My-Homeland-v3.3-1080p60-Master.mp4)** · 1080p60 · 195 秒 · 561 MB。
+
+[完整可编辑工程](https://github.com/2459654640-ship-it/dafeiyu-my-homeland-mv/raw/refs/heads/main/downloads/Dafeiyu-v3.3-Editable-Project.zip) · [全部 AI 素材（沿用）](https://github.com/2459654640-ship-it/dafeiyu-my-homeland-mv/raw/refs/heads/main/downloads/Dafeiyu-All-AI-Artwork.zip)
+
+本版仅增强字幕：非终端歌词使用更大的中文主字幕与英文辅字幕，间奏 AI 历史、演奏剪影、共同创作及回家等英文叙事补充中文说明。片头片尾和音乐时间轴沿用 v3.2。字幕已烧录进 MP4，所有播放器均可直接看见。
+
+[源码与独立渲染说明](v3.3/README.md) · [媒体检查](docs/v3.3/validation-v3.3.json)
+
+<details><summary>历史版本</summary>
+
 # 大肥鱼我的家乡 · v3.2 最终修改版
 
 **[高清成品](https://github.com/2459654640-ship-it/dafeiyu-my-homeland-mv/raw/refs/heads/main/masters/Dafeiyu-My-Homeland-v3.2-1080p60-Master.mp4)** · 1080p60 · 195 秒 · 600 MB。
@@ -68,6 +80,8 @@ MP4 使用 Git LFS 保存；上面的直链提供实际视频文件。GitHub 文
 [v2 完整 MV](video/Dafeiyu-My-Homeland-v2-1080p.mp4) / [v2 可编辑工程](downloads/Dafeiyu-v2-Editable-Project.zip) / [v2 说明](v2/README.md)。
 
 [v1 视频](video/Dafeiyu-My-Homeland-1080p.mp4) / [v1 工程](downloads/Dafeiyu-My-Homeland-Editable-Project.zip)。
+
+</details>
 
 </details>
 
