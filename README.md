@@ -1,3 +1,10 @@
+# 大肥鱼我的家乡 · v3.7
+
+[高清成品](https://github.com/2459654640-ship-it/dafeiyu-my-homeland-mv/raw/refs/heads/main/masters/Dafeiyu-My-Homeland-v3.7-1080p60-Master.mp4)
+
+复用 v3.1 代码剪影演奏的前 3.81 秒，放在 110.50–114.31 秒；ChatGPT 与 DeepSeek 早期模型共用接下来 3.81 秒，R1、Harness 与最新模型仍保持原来时长。其余镜头和原音轨保留。原模型信息源及美术署名同 v3.6。
+
+<details><summary>历史版本与素材</summary>
 # 大肥鱼我的家乡 · v3.6 演奏动作恢复
 
 **[高清成品](https://github.com/2459654640-ship-it/dafeiyu-my-homeland-mv/raw/refs/heads/main/masters/Dafeiyu-My-Homeland-v3.6-1080p60-Master.mp4)** · 1080p60 · 195 秒 · 498 MB。
@@ -118,6 +125,8 @@ MP4 使用 Git LFS 保存；上面的直链提供实际视频文件。GitHub 文
 [v2 完整 MV](video/Dafeiyu-My-Homeland-v2-1080p.mp4) / [v2 可编辑工程](downloads/Dafeiyu-v2-Editable-Project.zip) / [v2 说明](v2/README.md)。
 
 [v1 视频](video/Dafeiyu-My-Homeland-1080p.mp4) / [v1 工程](downloads/Dafeiyu-My-Homeland-Editable-Project.zip)。
+
+</details>
 
 </details>
 
