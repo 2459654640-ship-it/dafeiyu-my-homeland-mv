@@ -1,0 +1,2 @@
+masters/*.mp4 filter=lfs diff=lfs merge=lfs -text
+masters/v3-asset-preview.png filter=lfs diff=lfs merge=lfs -text
