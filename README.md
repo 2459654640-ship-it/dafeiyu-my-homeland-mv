@@ -1,3 +1,15 @@
+# 大肥鱼我的家乡 · v3.5 最终修正
+
+**[高清成品](https://github.com/2459654640-ship-it/dafeiyu-my-homeland-mv/raw/refs/heads/main/masters/Dafeiyu-My-Homeland-v3.5-1080p60-Master.mp4)** · 1080p60 · 195 秒 · 512 MB。
+
+[完整工程](https://github.com/2459654640-ship-it/dafeiyu-my-homeland-mv/raw/refs/heads/main/downloads/Dafeiyu-v3.5-Editable-Project.zip) · [全部 AI 美术素材](https://github.com/2459654640-ship-it/dafeiyu-my-homeland-mv/raw/refs/heads/main/downloads/Dafeiyu-All-AI-Artwork.zip)
+
+只去掉吉他与手部的光流插值和局部形变，保留清晰的固定演奏姿态与整体节拍运动。历史段继续到 Harness 与 V4.1-Flash-1017，中文字幕和片头片尾沿用 v3.4。
+
+[源码与说明](v3.5/README.md)
+
+<details><summary>历史版本</summary>
+
 # 大肥鱼我的家乡 · v3.4 历史间奏更新
 
 **[高清成品](https://github.com/2459654640-ship-it/dafeiyu-my-homeland-mv/raw/refs/heads/main/masters/Dafeiyu-My-Homeland-v3.4-1080p60-Master.mp4)** · 1080p60 · 195 秒 · 532 MB。
@@ -94,6 +106,8 @@ MP4 使用 Git LFS 保存；上面的直链提供实际视频文件。GitHub 文
 [v2 完整 MV](video/Dafeiyu-My-Homeland-v2-1080p.mp4) / [v2 可编辑工程](downloads/Dafeiyu-v2-Editable-Project.zip) / [v2 说明](v2/README.md)。
 
 [v1 视频](video/Dafeiyu-My-Homeland-1080p.mp4) / [v1 工程](downloads/Dafeiyu-My-Homeland-Editable-Project.zip)。
+
+</details>
 
 </details>
 
