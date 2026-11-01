@@ -1,0 +1,247 @@
+[
+  {
+    "start": 0.0,
+    "end": 10.6,
+    "mode": "opening",
+    "label": "OPEN / 大东北 → 大肥鱼",
+    "index": 0
+  },
+  {
+    "start": 10.6,
+    "end": 15.96,
+    "mode": "boot",
+    "label": "BOOT / ocean.home",
+    "index": 1
+  },
+  {
+    "start": 15.96,
+    "end": 19.26,
+    "mode": "dock",
+    "label": "A BRAND-NEW NAME",
+    "index": 2
+  },
+  {
+    "start": 19.26,
+    "end": 22.64,
+    "mode": "sky",
+    "label": "SKY / draw a horizon",
+    "index": 3
+  },
+  {
+    "start": 22.64,
+    "end": 26.48,
+    "mode": "dock",
+    "label": "WHISPER → FLAME",
+    "index": 4
+  },
+  {
+    "start": 26.48,
+    "end": 31.7,
+    "mode": "lights",
+    "label": "YOUR LIGHT / MY LIGHT",
+    "index": 5
+  },
+  {
+    "start": 31.7,
+    "end": 39.34,
+    "mode": "perform",
+    "label": "GUITAR / worlds begin moving",
+    "index": 6
+  },
+  {
+    "start": 39.34,
+    "end": 46.18,
+    "mode": "dive",
+    "label": "OCEAN / no final edge",
+    "index": 7
+  },
+  {
+    "start": 46.18,
+    "end": 49.72,
+    "mode": "glass",
+    "label": "BEYOND THE GLASS",
+    "index": 8
+  },
+  {
+    "start": 49.72,
+    "end": 53.52,
+    "mode": "galaxy",
+    "label": "A UNIVERSE OUT OF A DREAM",
+    "index": 9
+  },
+  {
+    "start": 53.52,
+    "end": 56.88,
+    "mode": "city",
+    "label": "SONGS BECOME WORLDS",
+    "index": 10
+  },
+  {
+    "start": 56.88,
+    "end": 63.7,
+    "mode": "ribbon",
+    "label": "A SHINING STREAM",
+    "index": 11
+  },
+  {
+    "start": 63.7,
+    "end": 66.9,
+    "mode": "ocean",
+    "label": "I AM THE OCEAN",
+    "index": 12
+  },
+  {
+    "start": 66.9,
+    "end": 70.94,
+    "mode": "louder",
+    "label": "LOUDER THAN THE SEA",
+    "index": 13
+  },
+  {
+    "start": 70.94,
+    "end": 74.5,
+    "mode": "satellite",
+    "label": "DREAM → SATELLITE",
+    "index": 14
+  },
+  {
+    "start": 74.5,
+    "end": 80.02,
+    "mode": "alight",
+    "label": "TOGETHER / STARS ALIGHT",
+    "index": 15
+  },
+  {
+    "start": 80.02,
+    "end": 87.64,
+    "mode": "history_signal",
+    "label": "HISTORY / ideas learn to connect",
+    "index": 16
+  },
+  {
+    "start": 87.64,
+    "end": 95.26,
+    "mode": "history_search",
+    "label": "HISTORY / errors and search",
+    "index": 17
+  },
+  {
+    "start": 95.26,
+    "end": 102.88,
+    "mode": "history_vision",
+    "label": "HISTORY / learning to see and act",
+    "index": 18
+  },
+  {
+    "start": 102.88,
+    "end": 110.5,
+    "mode": "history_attention",
+    "label": "HISTORY / words see one another",
+    "index": 19
+  },
+  {
+    "start": 110.5,
+    "end": 125.74,
+    "mode": "silhouette",
+    "label": "PERFORM / black and white",
+    "index": 20
+  },
+  {
+    "start": 125.74,
+    "end": 129.55,
+    "mode": "history_open",
+    "label": "HISTORY / open branches",
+    "index": 21
+  },
+  {
+    "start": 129.55,
+    "end": 133.36,
+    "mode": "coauthor",
+    "label": "HUMAN / your turn",
+    "index": 22
+  },
+  {
+    "start": 133.36,
+    "end": 139.78,
+    "mode": "portals",
+    "label": "LAUNCH / no closed window",
+    "index": 23
+  },
+  {
+    "start": 139.78,
+    "end": 143.08,
+    "mode": "ocean",
+    "label": "THE OCEAN IS OURS",
+    "index": 24
+  },
+  {
+    "start": 143.08,
+    "end": 146.94,
+    "mode": "hands",
+    "label": "YOUR HANDS / DRAW THE WORLD",
+    "index": 25
+  },
+  {
+    "start": 146.94,
+    "end": 150.74,
+    "mode": "voices",
+    "label": "EVERY VOICE / SKY ALIGHT",
+    "index": 26
+  },
+  {
+    "start": 150.74,
+    "end": 154.8,
+    "mode": "ignite",
+    "label": "A THOUSAND NEW WORLDS IGNITE",
+    "index": 27
+  },
+  {
+    "start": 154.8,
+    "end": 158.61,
+    "mode": "fugue",
+    "label": "WORLDS / across the frame",
+    "index": 28
+  },
+  {
+    "start": 158.61,
+    "end": 162.42,
+    "mode": "jellyfish",
+    "label": "CURRENT / living networks",
+    "index": 29
+  },
+  {
+    "start": 162.42,
+    "end": 166.23,
+    "mode": "perform",
+    "label": "CODA / one more sky",
+    "index": 30
+  },
+  {
+    "start": 166.23,
+    "end": 172.01,
+    "mode": "home",
+    "label": "HOME / a shared world",
+    "index": 31
+  },
+  {
+    "start": 172.01,
+    "end": 179.04,
+    "mode": "return",
+    "label": "RETURN / welcome home",
+    "index": 32
+  },
+  {
+    "start": 179.04,
+    "end": 187.42,
+    "mode": "archive",
+    "label": "ARCHIVE / keep worlds open",
+    "index": 33
+  },
+  {
+    "start": 187.42,
+    "end": 195.0,
+    "mode": "end",
+    "label": "大肥鱼我的家乡",
+    "index": 34
+  }
+]

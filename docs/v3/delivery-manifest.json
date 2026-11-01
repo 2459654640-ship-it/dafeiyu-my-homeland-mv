@@ -1,0 +1,21 @@
+{
+  "artifacts": [
+    {
+      "path": "masters/Dafeiyu-My-Homeland-v3-1080p60-Master.mp4",
+      "bytes": 540769287,
+      "sha256": "e7060e440bea7644d9d40d0b912b3a2f1e6b0c2d0b96b344637ff35c181a3f5c"
+    },
+    {
+      "path": "downloads/Dafeiyu-v3-Editable-Project.zip",
+      "bytes": 43307671,
+      "sha256": "5e9b5b9838f86b449c0468f5c66d3c62c75eb5c6ec14b7c68c4d00d94dcd901f"
+    }
+  ],
+  "editable_project_crc": "passed",
+  "packaged_render_smoke_test_seconds": [
+    2,
+    35,
+    120,
+    153.7
+  ]
+}
