@@ -1,3 +1,15 @@
+# 大肥鱼我的家乡 · v3.1 最小修改成品
+
+**[下载高清高码率完整版](https://github.com/2459654640-ship-it/dafeiyu-my-homeland-mv/raw/refs/heads/main/masters/Dafeiyu-My-Homeland-v3.1-1080p60-Master.mp4)** · 1080p60 · 195 秒 · 625 MB。
+
+本次仅调整开屏字体、约三分之一秒的短叠化转场、冷蓝代码剪影；保留原始吉他图像细节，删除简化吉他轮廓与人工拨弦条。音轨直接复制 v3，未改变歌曲时间轴。沿用现有全部素材，没有新增生成图。
+
+[修改源码与复现说明](v3.1/README.md) · [媒体检查](docs/v3.1/validation-v3.1.json) · [浏览器检查](docs/v3.1/browser-validation.json)
+
+![新开屏](docs/v3.1/cover.jpg)
+
+<details><summary>v3 基础工程、素材与历史记录</summary>
+
 # 大肥鱼我的家乡 · v3
 
 以终端和字符动画为主的完整科幻音乐 MV。本版加入巨型抱拳开屏、歌词空间、演奏动画、黑白负形段落、AI 历史版本树，以及穿出固定窗口的世界群。
@@ -42,5 +54,7 @@ MP4 使用 Git LFS 保存；上面的直链提供实际视频文件。GitHub 文
 [v2 完整 MV](video/Dafeiyu-My-Homeland-v2-1080p.mp4) / [v2 可编辑工程](downloads/Dafeiyu-v2-Editable-Project.zip) / [v2 说明](v2/README.md)。
 
 [v1 视频](video/Dafeiyu-My-Homeland-1080p.mp4) / [v1 工程](downloads/Dafeiyu-My-Homeland-Editable-Project.zip)。
+
+</details>
 
 </details>
