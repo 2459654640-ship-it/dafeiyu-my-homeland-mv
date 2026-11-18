@@ -1,0 +1,74 @@
+{
+  "master_sha256": "ab7149d8d3d20c19598e52c48dba0e21730741d66b5792fa9c44ebf8c0a0b17e",
+  "removed_heading_verified": true,
+  "new_mask_types": 10,
+  "official_logo_at_opening_and_ending": true,
+  "official_video_provenance_verified": true,
+  "frame_checks": [
+    {
+      "subject": "opening-official-logo",
+      "t": 1.3,
+      "frame_psnr_db": 32.45
+    },
+    {
+      "subject": "removed-heading",
+      "t": 9.0,
+      "frame_psnr_db": 36.33
+    },
+    {
+      "subject": "ending-official-logo",
+      "t": 264.9,
+      "frame_psnr_db": 39.34
+    },
+    {
+      "subject": "mask-coupe",
+      "t": 20.666666666666668,
+      "frame_psnr_db": 35.45
+    },
+    {
+      "subject": "mask-motorcycle",
+      "t": 24.816666666666666,
+      "frame_psnr_db": 36.81
+    },
+    {
+      "subject": "mask-helicopter",
+      "t": 29.083333333333332,
+      "frame_psnr_db": 37.33
+    },
+    {
+      "subject": "mask-convertible",
+      "t": 34.93333333333333,
+      "frame_psnr_db": 35.79
+    },
+    {
+      "subject": "mask-speedboat",
+      "t": 49.53333333333333,
+      "frame_psnr_db": 34.63
+    },
+    {
+      "subject": "mask-combat-cover",
+      "t": 71.63333333333334,
+      "frame_psnr_db": 34.06
+    },
+    {
+      "subject": "mask-pistols",
+      "t": 83.06666666666666,
+      "frame_psnr_db": 33.89
+    },
+    {
+      "subject": "mask-running",
+      "t": 93.98333333333333,
+      "frame_psnr_db": 34.92
+    },
+    {
+      "subject": "mask-combat-back",
+      "t": 154.93333333333334,
+      "frame_psnr_db": 34.2
+    },
+    {
+      "subject": "mask-combat-standing",
+      "t": 166.03333333333333,
+      "frame_psnr_db": 34.27
+    }
+  ]
+}

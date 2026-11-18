@@ -10,14 +10,15 @@ if cover.exists():shutil.copy2(cover,OUT/'Vice_City_My_Home_Cover.jpg')
 else:
  from render import Composer
  Composer().frame(6.4).save(OUT/'Vice_City_My_Home_Cover.jpg',quality=95)
-files=[R/x for x in ['README.md','SOURCES.md','LICENSE','requirements.txt','requirements-analysis.txt']]+sorted((R/'source').glob('*.py'))
-files+=sorted(f for f in (R/'assets').rglob('*') if f.is_file() and not f.name.startswith('official-'))
+files=[R/x for x in ['README.md','SOURCES.md','OFFICIAL_SOURCES.md','LICENSE','requirements.txt','requirements-analysis.txt']]+sorted((R/'source').glob('*.py'))
+files+=sorted(f for f in (R/'assets').rglob('*') if f.is_file() and not (f.name.startswith('official-') and f.suffix.lower()=='.mp4'))
 files += [R/'analysis'/x for x in ['lyrics.json','hits.json','shot-sources.json','timeline.json','cache-style.json','official-source-audit.json','official-cdn-verification.json','official-video-metadata.json','logo-provenance.json']]
 with zipfile.ZipFile(OUT/'Vice_City_My_Home_Editable_Project.zip','w') as z:
  for f in files:z.write(f,Path('Vice_City_My_Home')/f.relative_to(R),compress_type=zipfile.ZIP_STORED if f.suffix.lower() in ['.mp4','.mp3','.png'] else zipfile.ZIP_DEFLATED,compresslevel=2)
  z.write(OUT/'Vice_City_My_Home_Bilingual.srt','Vice_City_My_Home/Vice_City_My_Home_Bilingual.srt')
 with zipfile.ZipFile(OUT/'Vice_City_My_Home_AI_Assets.zip','w') as z:
- for f in sorted((R/'assets').glob('*.png')):z.write(f,Path('AI_Assets')/f.name,compress_type=zipfile.ZIP_STORED)
+ for f in sorted((R/'assets').glob('*.png')):
+  if not f.name.startswith('official-'):z.write(f,Path('AI_Assets')/f.name,compress_type=zipfile.ZIP_STORED)
  z.write(R/'SOURCES.md','AI_Assets/SOURCES.md',compress_type=zipfile.ZIP_DEFLATED)
 for f in OUT.glob('*.zip'):
  with zipfile.ZipFile(f) as z:assert z.testzip() is None

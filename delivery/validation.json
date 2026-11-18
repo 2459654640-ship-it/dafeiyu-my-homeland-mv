@@ -10,7 +10,7 @@
   "fps": "60/1",
   "video_duration": 269.833333,
   "audio_duration": 269.84,
-  "video_bitrate": 44065309,
+  "video_bitrate": 43659577,
   "audio_bitrate": 312320,
   "full_decode_passed": true,
   "audio_checks": [
@@ -35,6 +35,6 @@
       "correlation": 0.999954
     }
   ],
-  "size_bytes": 1497124998,
-  "sha256": "60f0add635079893013e013b4e8fcb51d064f5512f35126f13dffa5cd61ed70d"
+  "size_bytes": 1483439995,
+  "sha256": "ab7149d8d3d20c19598e52c48dba0e21730741d66b5792fa9c44ebf8c0a0b17e"
 }
