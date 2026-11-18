@@ -1,0 +1,40 @@
+{
+  "bilingual_lines": 45,
+  "unique_official_excerpts": 30,
+  "source_intervals_overlap": false,
+  "word_times_monotonic": true,
+  "artist": "\u68a8\u8317\u5b50",
+  "frames": 16190,
+  "width": 1920,
+  "height": 1080,
+  "fps": "60/1",
+  "video_duration": 269.833333,
+  "audio_duration": 269.84,
+  "video_bitrate": 44065309,
+  "audio_bitrate": 312320,
+  "full_decode_passed": true,
+  "audio_checks": [
+    {
+      "t": 40,
+      "offset_ms": 0.0,
+      "correlation": 0.999994
+    },
+    {
+      "t": 120,
+      "offset_ms": 0.0,
+      "correlation": 0.999997
+    },
+    {
+      "t": 180,
+      "offset_ms": 0.0,
+      "correlation": 0.999976
+    },
+    {
+      "t": 240,
+      "offset_ms": 0.0,
+      "correlation": 0.999954
+    }
+  ],
+  "size_bytes": 1497124998,
+  "sha256": "60f0add635079893013e013b4e8fcb51d064f5512f35126f13dffa5cd61ed70d"
+}
