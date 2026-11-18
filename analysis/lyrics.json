@@ -1,0 +1,2546 @@
+[
+  {
+    "section": "verse1",
+    "en": "Sunset falling, on Ocean Drive",
+    "zh": "夕阳落在海洋大道上",
+    "index": 0,
+    "start": 33.94,
+    "end": 37.14,
+    "words": [
+      {
+        "word": "SUNSET",
+        "start": 33.94,
+        "end": 34.68,
+        "confidence": 0.8927118976910909
+      },
+      {
+        "word": "FALLING",
+        "start": 34.88,
+        "end": 35.32,
+        "confidence": 0.8287804956947055
+      },
+      {
+        "word": "ON",
+        "start": 35.78,
+        "end": 35.88,
+        "confidence": 0.9299072623252869
+      },
+      {
+        "word": "OCEAN",
+        "start": 36.22,
+        "end": 36.62,
+        "confidence": 0.5446283601224422
+      },
+      {
+        "word": "DRIVE",
+        "start": 36.76,
+        "end": 37.14,
+        "confidence": 0.9206244349479675
+      }
+    ]
+  },
+  {
+    "section": "verse1",
+    "en": "The city wakes and the streets come alive",
+    "zh": "城市醒来，街道渐渐鲜活",
+    "index": 1,
+    "start": 37.44,
+    "end": 40.78,
+    "words": [
+      {
+        "word": "THE",
+        "start": 37.44,
+        "end": 37.52,
+        "confidence": 0.9161746899286906
+      },
+      {
+        "word": "CITY",
+        "start": 37.64,
+        "end": 38.1,
+        "confidence": 0.992496058344841
+      },
+      {
+        "word": "WAKES",
+        "start": 38.36,
+        "end": 38.74,
+        "confidence": 0.9816463232040405
+      },
+      {
+        "word": "AND",
+        "start": 39.0,
+        "end": 39.1,
+        "confidence": 0.7201886574427286
+      },
+      {
+        "word": "THE",
+        "start": 39.28,
+        "end": 39.34,
+        "confidence": 0.9247803290685018
+      },
+      {
+        "word": "STREETS",
+        "start": 39.44,
+        "end": 39.82,
+        "confidence": 0.942600062915257
+      },
+      {
+        "word": "COME",
+        "start": 39.980000000000004,
+        "end": 40.22,
+        "confidence": 0.9938135892152786
+      },
+      {
+        "word": "ALIVE",
+        "start": 40.34,
+        "end": 40.78,
+        "confidence": 0.9298107624053955
+      }
+    ]
+  },
+  {
+    "section": "verse1",
+    "en": "The pink hotels turn on their neon lights",
+    "zh": "粉色酒店亮起霓虹",
+    "index": 2,
+    "start": 41.160000000000004,
+    "end": 44.300000000000004,
+    "words": [
+      {
+        "word": "THE",
+        "start": 41.160000000000004,
+        "end": 41.24,
+        "confidence": 0.9923950036366781
+      },
+      {
+        "word": "PINK",
+        "start": 41.38,
+        "end": 41.68,
+        "confidence": 0.8707849830389023
+      },
+      {
+        "word": "HOTELS",
+        "start": 41.84,
+        "end": 42.480000000000004,
+        "confidence": 0.5374465334850053
+      },
+      {
+        "word": "TURN",
+        "start": 42.54,
+        "end": 42.76,
+        "confidence": 0.9815216660499573
+      },
+      {
+        "word": "ON",
+        "start": 42.88,
+        "end": 42.92,
+        "confidence": 0.9862571954727173
+      },
+      {
+        "word": "THEIR",
+        "start": 43.0,
+        "end": 43.12,
+        "confidence": 0.5125632164767012
+      },
+      {
+        "word": "NEON",
+        "start": 43.22,
+        "end": 43.74,
+        "confidence": 0.8429900854825974
+      },
+      {
+        "word": "LIGHTS",
+        "start": 43.9,
+        "end": 44.300000000000004,
+        "confidence": 0.7660810798406601
+      }
+    ]
+  },
+  {
+    "section": "verse1",
+    "en": "The radio keeps playing through the night",
+    "zh": "收音机整夜不停播放",
+    "index": 3,
+    "start": 44.84,
+    "end": 48.08,
+    "words": [
+      {
+        "word": "THE",
+        "start": 44.84,
+        "end": 44.94,
+        "confidence": 0.9836039940516154
+      },
+      {
+        "word": "RADIO",
+        "start": 45.06,
+        "end": 45.68,
+        "confidence": 0.6742021322250367
+      },
+      {
+        "word": "KEEPS",
+        "start": 46.0,
+        "end": 46.300000000000004,
+        "confidence": 0.9897628426551819
+      },
+      {
+        "word": "PLAYING",
+        "start": 46.44,
+        "end": 46.78,
+        "confidence": 0.7272032893129757
+      },
+      {
+        "word": "THROUGH",
+        "start": 46.86,
+        "end": 47.18,
+        "confidence": 0.8493974038532802
+      },
+      {
+        "word": "THE",
+        "start": 47.6,
+        "end": 47.72,
+        "confidence": 0.9680982629458109
+      },
+      {
+        "word": "NIGHT",
+        "start": 47.84,
+        "end": 48.08,
+        "confidence": 0.9392187595367432
+      }
+    ]
+  },
+  {
+    "section": "verse1",
+    "en": "The whole bay glitters, the palm trees sway",
+    "zh": "海湾闪耀，棕榈轻摇",
+    "index": 4,
+    "start": 48.54,
+    "end": 51.78,
+    "words": [
+      {
+        "word": "THE",
+        "start": 48.54,
+        "end": 48.660000000000004,
+        "confidence": 0.9423526128133138
+      },
+      {
+        "word": "WHOLE",
+        "start": 48.76,
+        "end": 49.120000000000005,
+        "confidence": 0.7274830281734467
+      },
+      {
+        "word": "BAY",
+        "start": 49.24,
+        "end": 49.54,
+        "confidence": 0.7551639179388682
+      },
+      {
+        "word": "GLITTERS",
+        "start": 49.660000000000004,
+        "end": 50.08,
+        "confidence": 0.9382377341389656
+      },
+      {
+        "word": "THE",
+        "start": 50.4,
+        "end": 50.480000000000004,
+        "confidence": 0.860486368338267
+      },
+      {
+        "word": "PALM",
+        "start": 50.6,
+        "end": 50.9,
+        "confidence": 0.44846977293491364
+      },
+      {
+        "word": "TREES",
+        "start": 51.06,
+        "end": 51.34,
+        "confidence": 0.7181368816643954
+      },
+      {
+        "word": "SWAY",
+        "start": 51.46,
+        "end": 51.78,
+        "confidence": 0.9290052056312561
+      }
+    ]
+  },
+  {
+    "section": "verse1",
+    "en": "The traffic rolls like a slow-moving wave",
+    "zh": "车流像缓缓涌动的海浪",
+    "index": 5,
+    "start": 52.24,
+    "end": 55.480000000000004,
+    "words": [
+      {
+        "word": "THE",
+        "start": 52.24,
+        "end": 52.32,
+        "confidence": 0.8678914507230123
+      },
+      {
+        "word": "TRAFFIC",
+        "start": 52.4,
+        "end": 52.84,
+        "confidence": 0.8308500094073159
+      },
+      {
+        "word": "ROLLS",
+        "start": 53.14,
+        "end": 53.52,
+        "confidence": 0.6156491845846176
+      },
+      {
+        "word": "LIKE",
+        "start": 53.64,
+        "end": 53.9,
+        "confidence": 0.9139947295188904
+      },
+      {
+        "word": "A",
+        "start": 53.96,
+        "end": 53.980000000000004,
+        "confidence": 0.0018746716668829322
+      },
+      {
+        "word": "SLOW",
+        "start": 54.24,
+        "end": 54.58,
+        "confidence": 0.48908216651761904
+      },
+      {
+        "word": "MOVING",
+        "start": 54.78,
+        "end": 55.14,
+        "confidence": 0.9106262524922689
+      },
+      {
+        "word": "WAVE",
+        "start": 55.26,
+        "end": 55.480000000000004,
+        "confidence": 0.11326196762820473
+      }
+    ]
+  },
+  {
+    "section": "verse1",
+    "en": "Headlights stretch out on the road to the Keys",
+    "zh": "车灯延伸向群岛的公路",
+    "index": 6,
+    "start": 55.92,
+    "end": 59.300000000000004,
+    "words": [
+      {
+        "word": "HEADLIGHTS",
+        "start": 55.92,
+        "end": 56.54,
+        "confidence": 0.34300381879893393
+      },
+      {
+        "word": "STRETCH",
+        "start": 56.58,
+        "end": 56.92,
+        "confidence": 0.8230937506471362
+      },
+      {
+        "word": "OUT",
+        "start": 57.34,
+        "end": 57.52,
+        "confidence": 0.9409852027893066
+      },
+      {
+        "word": "ON",
+        "start": 57.660000000000004,
+        "end": 57.7,
+        "confidence": 0.7956356108188629
+      },
+      {
+        "word": "THE",
+        "start": 57.78,
+        "end": 57.88,
+        "confidence": 0.05747353906432787
+      },
+      {
+        "word": "ROAD",
+        "start": 57.980000000000004,
+        "end": 58.2,
+        "confidence": 0.7037355527281761
+      },
+      {
+        "word": "TO",
+        "start": 58.300000000000004,
+        "end": 58.46,
+        "confidence": 0.9809147417545319
+      },
+      {
+        "word": "THE",
+        "start": 58.74,
+        "end": 58.82,
+        "confidence": 0.9782236615816752
+      },
+      {
+        "word": "KEYS",
+        "start": 58.9,
+        "end": 59.300000000000004,
+        "confidence": 0.9039989411830902
+      }
+    ]
+  },
+  {
+    "section": "verse1",
+    "en": "The ocean wind blows through the banyan trees",
+    "zh": "海风穿过榕树的枝叶",
+    "index": 7,
+    "start": 59.64,
+    "end": 63.1,
+    "words": [
+      {
+        "word": "THE",
+        "start": 59.64,
+        "end": 59.76,
+        "confidence": 0.937059203783671
+      },
+      {
+        "word": "OCEAN",
+        "start": 59.94,
+        "end": 60.18,
+        "confidence": 0.9975423336029052
+      },
+      {
+        "word": "WIND",
+        "start": 60.34,
+        "end": 60.64,
+        "confidence": 0.9507276266813278
+      },
+      {
+        "word": "BLOWS",
+        "start": 60.76,
+        "end": 61.1,
+        "confidence": 0.9723765850067139
+      },
+      {
+        "word": "THROUGH",
+        "start": 61.2,
+        "end": 61.44,
+        "confidence": 0.9476501771381923
+      },
+      {
+        "word": "THE",
+        "start": 61.5,
+        "end": 61.58,
+        "confidence": 0.9855860273043314
+      },
+      {
+        "word": "BANYAN",
+        "start": 61.7,
+        "end": 62.38,
+        "confidence": 0.7850510676701864
+      },
+      {
+        "word": "TREES",
+        "start": 62.58,
+        "end": 63.1,
+        "confidence": 0.5487608444862417
+      }
+    ]
+  },
+  {
+    "section": "chorus1",
+    "en": "Vice City, one hell of a ride",
+    "zh": "罪城，这一路何等疯狂",
+    "index": 8,
+    "start": 70.64,
+    "end": 74.0,
+    "words": [
+      {
+        "word": "VICE",
+        "start": 70.64,
+        "end": 71.18,
+        "confidence": 0.23645907797617838
+      },
+      {
+        "word": "CITY",
+        "start": 71.34,
+        "end": 72.12,
+        "confidence": 0.07671227416722104
+      },
+      {
+        "word": "ONE",
+        "start": 72.56,
+        "end": 72.76,
+        "confidence": 0.5884687801202139
+      },
+      {
+        "word": "HELL",
+        "start": 72.86,
+        "end": 73.26,
+        "confidence": 0.4383193552494049
+      },
+      {
+        "word": "OF",
+        "start": 73.32000000000001,
+        "end": 73.36,
+        "confidence": 0.05290858447551727
+      },
+      {
+        "word": "A",
+        "start": 73.52,
+        "end": 73.54,
+        "confidence": 0.13516105711460114
+      },
+      {
+        "word": "RIDE",
+        "start": 73.64,
+        "end": 74.0,
+        "confidence": 0.21537887305021286
+      }
+    ]
+  },
+  {
+    "section": "chorus1",
+    "en": "The sun goes down and the streets come alive",
+    "zh": "太阳落下，街道开始苏醒",
+    "index": 9,
+    "start": 74.34,
+    "end": 77.64,
+    "words": [
+      {
+        "word": "THE",
+        "start": 74.34,
+        "end": 74.44,
+        "confidence": 0.9530582030614217
+      },
+      {
+        "word": "SUN",
+        "start": 74.54,
+        "end": 74.86,
+        "confidence": 0.8544225096702576
+      },
+      {
+        "word": "GOES",
+        "start": 75.06,
+        "end": 75.38,
+        "confidence": 0.584198109805584
+      },
+      {
+        "word": "DOWN",
+        "start": 75.5,
+        "end": 75.82000000000001,
+        "confidence": 0.9945448338985443
+      },
+      {
+        "word": "AND",
+        "start": 75.94,
+        "end": 76.04,
+        "confidence": 0.7144175072511038
+      },
+      {
+        "word": "THE",
+        "start": 76.16,
+        "end": 76.26,
+        "confidence": 0.9805155595143636
+      },
+      {
+        "word": "STREETS",
+        "start": 76.34,
+        "end": 76.74,
+        "confidence": 0.9579620276178632
+      },
+      {
+        "word": "COME",
+        "start": 76.86,
+        "end": 77.08,
+        "confidence": 0.543508268892765
+      },
+      {
+        "word": "ALIVE",
+        "start": 77.22,
+        "end": 77.64,
+        "confidence": 0.43333077281713483
+      }
+    ]
+  },
+  {
+    "section": "chorus1",
+    "en": "Fast cars rolling, with the windows down",
+    "zh": "跑车飞驰，车窗尽情敞开",
+    "index": 10,
+    "start": 78.24,
+    "end": 81.28,
+    "words": [
+      {
+        "word": "FAST",
+        "start": 78.24,
+        "end": 78.56,
+        "confidence": 0.9685135036706924
+      },
+      {
+        "word": "CARS",
+        "start": 78.72,
+        "end": 79.06,
+        "confidence": 0.9347735494375229
+      },
+      {
+        "word": "ROLLING",
+        "start": 79.18,
+        "end": 79.60000000000001,
+        "confidence": 0.8944529550416129
+      },
+      {
+        "word": "WITH",
+        "start": 79.86,
+        "end": 80.2,
+        "confidence": 0.7626784592866898
+      },
+      {
+        "word": "THE",
+        "start": 80.34,
+        "end": 80.44,
+        "confidence": 0.8237520058949789
+      },
+      {
+        "word": "WINDOWS",
+        "start": 80.60000000000001,
+        "end": 80.96000000000001,
+        "confidence": 0.9696121897016253
+      },
+      {
+        "word": "DOWN",
+        "start": 81.02,
+        "end": 81.28,
+        "confidence": 0.8708300888538361
+      }
+    ]
+  },
+  {
+    "section": "chorus1",
+    "en": "Anything can happen in this town",
+    "zh": "在这座城，一切皆有可能",
+    "index": 11,
+    "start": 82.06,
+    "end": 84.22,
+    "words": [
+      {
+        "word": "ANYTHING",
+        "start": 82.06,
+        "end": 82.52,
+        "confidence": 0.9444808214902878
+      },
+      {
+        "word": "CAN",
+        "start": 82.62,
+        "end": 82.72,
+        "confidence": 0.964539368947347
+      },
+      {
+        "word": "HAPPEN",
+        "start": 82.84,
+        "end": 83.18,
+        "confidence": 0.995457132657369
+      },
+      {
+        "word": "IN",
+        "start": 83.38,
+        "end": 83.42,
+        "confidence": 0.8842920958995819
+      },
+      {
+        "word": "THIS",
+        "start": 83.52,
+        "end": 83.66,
+        "confidence": 0.744015097618103
+      },
+      {
+        "word": "TOWN",
+        "start": 83.74,
+        "end": 84.22,
+        "confidence": 0.7138304114341736
+      }
+    ]
+  },
+  {
+    "section": "chorus1",
+    "en": "Vice City, one hell of a ride",
+    "zh": "罪城，这一路何等疯狂",
+    "index": 12,
+    "start": 85.60000000000001,
+    "end": 88.68,
+    "words": [
+      {
+        "word": "VICE",
+        "start": 85.60000000000001,
+        "end": 85.9,
+        "confidence": 0.2941376627422869
+      },
+      {
+        "word": "CITY",
+        "start": 86.02,
+        "end": 86.86,
+        "confidence": 0.12462051789043471
+      },
+      {
+        "word": "ONE",
+        "start": 87.28,
+        "end": 87.36,
+        "confidence": 0.7738139430681864
+      },
+      {
+        "word": "HELL",
+        "start": 87.44,
+        "end": 87.74,
+        "confidence": 0.5514837130904198
+      },
+      {
+        "word": "OF",
+        "start": 87.86,
+        "end": 87.92,
+        "confidence": 0.12138723582029343
+      },
+      {
+        "word": "A",
+        "start": 88.04,
+        "end": 88.06,
+        "confidence": 0.1831667274236679
+      },
+      {
+        "word": "RIDE",
+        "start": 88.3,
+        "end": 88.68,
+        "confidence": 0.28019022863009013
+      }
+    ]
+  },
+  {
+    "section": "chorus1",
+    "en": "The summer is hot and the nights are long",
+    "zh": "夏日滚烫，长夜漫漫",
+    "index": 13,
+    "start": 89.04,
+    "end": 92.3,
+    "words": [
+      {
+        "word": "THE",
+        "start": 89.04,
+        "end": 89.12,
+        "confidence": 0.6674456795056661
+      },
+      {
+        "word": "SUMMER",
+        "start": 89.22,
+        "end": 89.92,
+        "confidence": 0.7345501681168874
+      },
+      {
+        "word": "IS",
+        "start": 90.02,
+        "end": 90.10000000000001,
+        "confidence": 0.6634044647216797
+      },
+      {
+        "word": "HOT",
+        "start": 90.16,
+        "end": 90.4,
+        "confidence": 0.8200391928354899
+      },
+      {
+        "word": "AND",
+        "start": 90.62,
+        "end": 90.7,
+        "confidence": 0.306460569302241
+      },
+      {
+        "word": "THE",
+        "start": 90.8,
+        "end": 90.96000000000001,
+        "confidence": 0.04566593029691527
+      },
+      {
+        "word": "NIGHTS",
+        "start": 91.12,
+        "end": 91.52,
+        "confidence": 0.32987925879084895
+      },
+      {
+        "word": "ARE",
+        "start": 91.7,
+        "end": 91.8,
+        "confidence": 0.37757615310450393
+      },
+      {
+        "word": "LONG",
+        "start": 92.0,
+        "end": 92.3,
+        "confidence": 0.8715483397245407
+      }
+    ]
+  },
+  {
+    "section": "chorus1",
+    "en": "Every street corner is singing our song",
+    "zh": "每个街角都在唱我们的歌",
+    "index": 14,
+    "start": 92.98,
+    "end": 96.0,
+    "words": [
+      {
+        "word": "EVERY",
+        "start": 92.98,
+        "end": 93.24,
+        "confidence": 0.2922837108373642
+      },
+      {
+        "word": "STREET",
+        "start": 93.34,
+        "end": 93.68,
+        "confidence": 0.9808880786101023
+      },
+      {
+        "word": "CORNER",
+        "start": 93.84,
+        "end": 94.24,
+        "confidence": 0.7632926901181539
+      },
+      {
+        "word": "IS",
+        "start": 94.58,
+        "end": 94.62,
+        "confidence": 0.723666250705719
+      },
+      {
+        "word": "SINGING",
+        "start": 94.74,
+        "end": 95.22,
+        "confidence": 0.8888857790402004
+      },
+      {
+        "word": "OUR",
+        "start": 95.4,
+        "end": 95.48,
+        "confidence": 0.8548514048258463
+      },
+      {
+        "word": "SONG",
+        "start": 95.66,
+        "end": 96.0,
+        "confidence": 0.9585738480091095
+      }
+    ]
+  },
+  {
+    "section": "chorus1",
+    "en": "Out on the road, wild and free, where we belong",
+    "zh": "奔向公路，狂野自由，那是我们的归处",
+    "index": 15,
+    "start": 96.64,
+    "end": 99.7,
+    "words": [
+      {
+        "word": "OUT",
+        "start": 96.64,
+        "end": 96.84,
+        "confidence": 0.44299280643463135
+      },
+      {
+        "word": "ON",
+        "start": 97.0,
+        "end": 97.10000000000001,
+        "confidence": 0.45975688844919205
+      },
+      {
+        "word": "THE",
+        "start": 97.3,
+        "end": 97.4,
+        "confidence": 0.2785635044177373
+      },
+      {
+        "word": "ROAD",
+        "start": 97.48,
+        "end": 97.68,
+        "confidence": 0.28103052638471127
+      },
+      {
+        "word": "WILD",
+        "start": 97.78,
+        "end": 98.16,
+        "confidence": 0.6971884777303785
+      },
+      {
+        "word": "AND",
+        "start": 98.26,
+        "end": 98.34,
+        "confidence": 0.8981175223986307
+      },
+      {
+        "word": "FREE",
+        "start": 98.42,
+        "end": 98.62,
+        "confidence": 0.9404784739017487
+      },
+      {
+        "word": "WHERE",
+        "start": 98.68,
+        "end": 98.86,
+        "confidence": 0.46517101898789404
+      },
+      {
+        "word": "WE",
+        "start": 98.94,
+        "end": 99.04,
+        "confidence": 0.8682688176631927
+      },
+      {
+        "word": "BELONG",
+        "start": 99.14,
+        "end": 99.7,
+        "confidence": 0.4270685600737731
+      }
+    ]
+  },
+  {
+    "section": "verse2",
+    "en": "Perfect smiles shine on every screen",
+    "zh": "每块屏幕都闪着完美笑容",
+    "index": 16,
+    "start": 117.7,
+    "end": 120.74000000000001,
+    "words": [
+      {
+        "word": "PERFECT",
+        "start": 117.7,
+        "end": 118.38,
+        "confidence": 0.4431001842021942
+      },
+      {
+        "word": "SMILES",
+        "start": 118.52,
+        "end": 118.94,
+        "confidence": 0.847476601600647
+      },
+      {
+        "word": "SHINE",
+        "start": 119.02,
+        "end": 119.32000000000001,
+        "confidence": 0.9085841774940491
+      },
+      {
+        "word": "ON",
+        "start": 119.54,
+        "end": 119.62,
+        "confidence": 0.9401209056377411
+      },
+      {
+        "word": "EVERY",
+        "start": 119.92,
+        "end": 120.28,
+        "confidence": 0.6772510170936584
+      },
+      {
+        "word": "SCREEN",
+        "start": 120.34,
+        "end": 120.74000000000001,
+        "confidence": 0.9200356900691986
+      }
+    ]
+  },
+  {
+    "section": "verse2",
+    "en": "They sell you sunshine for a monthly fee",
+    "zh": "他们按月收费，向你兜售阳光",
+    "index": 17,
+    "start": 121.12,
+    "end": 124.26,
+    "words": [
+      {
+        "word": "THEY",
+        "start": 121.12,
+        "end": 121.24000000000001,
+        "confidence": 0.7405298271914944
+      },
+      {
+        "word": "SELL",
+        "start": 121.34,
+        "end": 121.7,
+        "confidence": 0.6529497057199478
+      },
+      {
+        "word": "YOU",
+        "start": 121.8,
+        "end": 121.86,
+        "confidence": 0.30899004207458347
+      },
+      {
+        "word": "SUNSHINE",
+        "start": 122.02,
+        "end": 122.66,
+        "confidence": 0.8842940293252468
+      },
+      {
+        "word": "FOR",
+        "start": 122.74000000000001,
+        "end": 122.9,
+        "confidence": 0.9949807325998942
+      },
+      {
+        "word": "A",
+        "start": 123.02,
+        "end": 123.04,
+        "confidence": 0.892845094203949
+      },
+      {
+        "word": "MONTHLY",
+        "start": 123.16,
+        "end": 123.8,
+        "confidence": 0.9491689375468663
+      },
+      {
+        "word": "FEE",
+        "start": 124.04,
+        "end": 124.26,
+        "confidence": 0.3756821850935618
+      }
+    ]
+  },
+  {
+    "section": "verse2",
+    "en": "The streets stay hungry while the billboards shout",
+    "zh": "广告牌高声叫卖，街头依旧饥饿",
+    "index": 18,
+    "start": 124.76,
+    "end": 128.06,
+    "words": [
+      {
+        "word": "THE",
+        "start": 124.76,
+        "end": 124.86,
+        "confidence": 0.938588539759318
+      },
+      {
+        "word": "STREETS",
+        "start": 124.92,
+        "end": 125.3,
+        "confidence": 0.8106424765927451
+      },
+      {
+        "word": "STAY",
+        "start": 125.36,
+        "end": 125.72,
+        "confidence": 0.7620078772306442
+      },
+      {
+        "word": "HUNGRY",
+        "start": 125.9,
+        "end": 126.28,
+        "confidence": 0.29106187106420595
+      },
+      {
+        "word": "WHILE",
+        "start": 126.42,
+        "end": 126.58,
+        "confidence": 0.018945926218293607
+      },
+      {
+        "word": "THE",
+        "start": 126.62,
+        "end": 126.72,
+        "confidence": 0.8585647145907084
+      },
+      {
+        "word": "BILLBOARDS",
+        "start": 126.84,
+        "end": 127.60000000000001,
+        "confidence": 0.7969836175441742
+      },
+      {
+        "word": "SHOUT",
+        "start": 127.72,
+        "end": 128.06,
+        "confidence": 0.9821239948272705
+      }
+    ]
+  },
+  {
+    "section": "verse2",
+    "en": "Somebody's winning as the lights go out",
+    "zh": "灯光熄灭时，总有人赢得一切",
+    "index": 19,
+    "start": 128.62,
+    "end": 131.64000000000001,
+    "words": [
+      {
+        "word": "SOMEBODY'S",
+        "start": 128.62,
+        "end": 129.5,
+        "confidence": 0.6729990988969803
+      },
+      {
+        "word": "WINNING",
+        "start": 129.58,
+        "end": 129.98,
+        "confidence": 0.5111975618638098
+      },
+      {
+        "word": "AS",
+        "start": 130.12,
+        "end": 130.2,
+        "confidence": 0.8084394335746765
+      },
+      {
+        "word": "THE",
+        "start": 130.28,
+        "end": 130.36,
+        "confidence": 0.9477889736493429
+      },
+      {
+        "word": "LIGHTS",
+        "start": 130.48,
+        "end": 130.8,
+        "confidence": 0.8698486089706421
+      },
+      {
+        "word": "GO",
+        "start": 130.94,
+        "end": 131.16,
+        "confidence": 0.906598687171936
+      },
+      {
+        "word": "OUT",
+        "start": 131.54,
+        "end": 131.64000000000001,
+        "confidence": 0.11231198906898499
+      }
+    ]
+  },
+  {
+    "section": "verse2",
+    "en": "The gates are golden, the streets are gray",
+    "zh": "大门金光闪闪，街道却灰暗",
+    "index": 20,
+    "start": 132.1,
+    "end": 135.32,
+    "words": [
+      {
+        "word": "THE",
+        "start": 132.1,
+        "end": 132.2,
+        "confidence": 0.9448486963907877
+      },
+      {
+        "word": "GATES",
+        "start": 132.3,
+        "end": 132.64000000000001,
+        "confidence": 0.923446249961853
+      },
+      {
+        "word": "ARE",
+        "start": 132.96,
+        "end": 133.08,
+        "confidence": 0.841530998547872
+      },
+      {
+        "word": "GOLDEN",
+        "start": 133.22,
+        "end": 133.6,
+        "confidence": 0.9585123062133789
+      },
+      {
+        "word": "THE",
+        "start": 133.88,
+        "end": 133.98,
+        "confidence": 0.9313827753067017
+      },
+      {
+        "word": "STREETS",
+        "start": 134.06,
+        "end": 134.44,
+        "confidence": 0.9572824920926776
+      },
+      {
+        "word": "ARE",
+        "start": 134.76,
+        "end": 134.9,
+        "confidence": 0.8142120043436686
+      },
+      {
+        "word": "GRAY",
+        "start": 135.04,
+        "end": 135.32,
+        "confidence": 0.9009584337472916
+      }
+    ]
+  },
+  {
+    "section": "verse2",
+    "en": "Tomorrow belongs to whoever pays",
+    "zh": "谁付得起钱，谁就拥有明天",
+    "index": 21,
+    "start": 135.72,
+    "end": 139.06,
+    "words": [
+      {
+        "word": "TOMORROW",
+        "start": 135.72,
+        "end": 136.4,
+        "confidence": 0.9570631682872772
+      },
+      {
+        "word": "BELONGS",
+        "start": 136.66,
+        "end": 137.20000000000002,
+        "confidence": 0.96054550579616
+      },
+      {
+        "word": "TO",
+        "start": 137.3,
+        "end": 137.42000000000002,
+        "confidence": 0.996958315372467
+      },
+      {
+        "word": "WHOEVER",
+        "start": 137.52,
+        "end": 138.58,
+        "confidence": 0.2672490434987204
+      },
+      {
+        "word": "PAYS",
+        "start": 138.68,
+        "end": 139.06,
+        "confidence": 0.5813238099217415
+      }
+    ]
+  },
+  {
+    "section": "verse2",
+    "en": "Today's big scandal is tomorrow's ad",
+    "zh": "今天的丑闻，明天就成了广告",
+    "index": 22,
+    "start": 139.36,
+    "end": 142.68,
+    "words": [
+      {
+        "word": "TODAY'S",
+        "start": 139.36,
+        "end": 139.94,
+        "confidence": 0.4819090305827558
+      },
+      {
+        "word": "BIG",
+        "start": 140.08,
+        "end": 140.26,
+        "confidence": 0.5044127603371938
+      },
+      {
+        "word": "SCANDAL",
+        "start": 140.4,
+        "end": 140.92000000000002,
+        "confidence": 0.9395050491605487
+      },
+      {
+        "word": "IS",
+        "start": 141.0,
+        "end": 141.1,
+        "confidence": 0.46094253566116095
+      },
+      {
+        "word": "TOMORROW'S",
+        "start": 141.18,
+        "end": 142.22,
+        "confidence": 0.7263784587383271
+      },
+      {
+        "word": "AD",
+        "start": 142.58,
+        "end": 142.68,
+        "confidence": 0.6674195826053619
+      }
+    ]
+  },
+  {
+    "section": "verse2",
+    "en": "The whole town buys it and calls it a fact",
+    "zh": "全城照单全收，还称它为事实",
+    "index": 23,
+    "start": 143.02,
+    "end": 147.56,
+    "words": [
+      {
+        "word": "THE",
+        "start": 143.02,
+        "end": 143.1,
+        "confidence": 0.9908865094184875
+      },
+      {
+        "word": "WHOLE",
+        "start": 143.24,
+        "end": 143.54,
+        "confidence": 0.9758537530899047
+      },
+      {
+        "word": "TOWN",
+        "start": 143.66,
+        "end": 144.0,
+        "confidence": 0.9828749895095825
+      },
+      {
+        "word": "BUYS",
+        "start": 144.16,
+        "end": 144.38,
+        "confidence": 0.5349688865244389
+      },
+      {
+        "word": "IT",
+        "start": 144.48,
+        "end": 144.52,
+        "confidence": 0.9590568542480469
+      },
+      {
+        "word": "AND",
+        "start": 144.86,
+        "end": 144.94,
+        "confidence": 0.9276595910390218
+      },
+      {
+        "word": "CALLS",
+        "start": 145.04,
+        "end": 145.44,
+        "confidence": 0.8335293412208558
+      },
+      {
+        "word": "IT",
+        "start": 145.64000000000001,
+        "end": 145.68,
+        "confidence": 0.1965019851922989
+      },
+      {
+        "word": "A",
+        "start": 145.8,
+        "end": 145.82,
+        "confidence": 0.08528784662485123
+      },
+      {
+        "word": "FACT",
+        "start": 145.96,
+        "end": 147.56,
+        "confidence": 0.28533432743279263
+      }
+    ]
+  },
+  {
+    "section": "chorus2",
+    "en": "Vice City, one hell of a ride",
+    "zh": "罪城，这一路何等疯狂",
+    "index": 24,
+    "start": 150.52,
+    "end": 153.6,
+    "words": [
+      {
+        "word": "VICE",
+        "start": 150.52,
+        "end": 150.82,
+        "confidence": 0.241209967964096
+      },
+      {
+        "word": "CITY",
+        "start": 150.94,
+        "end": 151.6,
+        "confidence": 0.11713949008844793
+      },
+      {
+        "word": "ONE",
+        "start": 152.20000000000002,
+        "end": 152.3,
+        "confidence": 0.8675250013669332
+      },
+      {
+        "word": "HELL",
+        "start": 152.4,
+        "end": 152.64000000000001,
+        "confidence": 0.045251427218317986
+      },
+      {
+        "word": "OF",
+        "start": 152.96,
+        "end": 153.04,
+        "confidence": 0.40045199263840914
+      },
+      {
+        "word": "A",
+        "start": 153.12,
+        "end": 153.14000000000001,
+        "confidence": 0.042922310531139374
+      },
+      {
+        "word": "RIDE",
+        "start": 153.26,
+        "end": 153.6,
+        "confidence": 0.23391394660575315
+      }
+    ]
+  },
+  {
+    "section": "chorus2",
+    "en": "The sun goes down and the streets come alive",
+    "zh": "太阳落下，街道开始苏醒",
+    "index": 25,
+    "start": 153.94,
+    "end": 157.3,
+    "words": [
+      {
+        "word": "THE",
+        "start": 153.94,
+        "end": 154.02,
+        "confidence": 0.9699142376581827
+      },
+      {
+        "word": "SUN",
+        "start": 154.14000000000001,
+        "end": 154.44,
+        "confidence": 0.7860010464986166
+      },
+      {
+        "word": "GOES",
+        "start": 154.64000000000001,
+        "end": 154.98,
+        "confidence": 0.919877290725708
+      },
+      {
+        "word": "DOWN",
+        "start": 155.06,
+        "end": 155.38,
+        "confidence": 0.9349894821643829
+      },
+      {
+        "word": "AND",
+        "start": 155.6,
+        "end": 155.68,
+        "confidence": 0.2998708348410825
+      },
+      {
+        "word": "THE",
+        "start": 155.76,
+        "end": 155.82,
+        "confidence": 0.9152893622716268
+      },
+      {
+        "word": "STREETS",
+        "start": 155.9,
+        "end": 156.26,
+        "confidence": 0.9304695810590472
+      },
+      {
+        "word": "COME",
+        "start": 156.4,
+        "end": 156.78,
+        "confidence": 0.38806580752134323
+      },
+      {
+        "word": "ALIVE",
+        "start": 157.12,
+        "end": 157.3,
+        "confidence": 0.09514205284649506
+      }
+    ]
+  },
+  {
+    "section": "chorus2",
+    "en": "Fast cars rolling, with the windows down",
+    "zh": "跑车飞驰，车窗尽情敞开",
+    "index": 26,
+    "start": 157.74,
+    "end": 160.78,
+    "words": [
+      {
+        "word": "FAST",
+        "start": 157.74,
+        "end": 158.1,
+        "confidence": 0.9529398083686829
+      },
+      {
+        "word": "CARS",
+        "start": 158.24,
+        "end": 158.6,
+        "confidence": 0.6671607866883278
+      },
+      {
+        "word": "ROLLING",
+        "start": 158.68,
+        "end": 159.14000000000001,
+        "confidence": 0.8466187076909202
+      },
+      {
+        "word": "WITH",
+        "start": 159.36,
+        "end": 159.62,
+        "confidence": 0.9743392765522003
+      },
+      {
+        "word": "THE",
+        "start": 159.84,
+        "end": 159.96,
+        "confidence": 0.9755113124847412
+      },
+      {
+        "word": "WINDOWS",
+        "start": 160.06,
+        "end": 160.44,
+        "confidence": 0.9719064746584211
+      },
+      {
+        "word": "DOWN",
+        "start": 160.5,
+        "end": 160.78,
+        "confidence": 0.9686706513166428
+      }
+    ]
+  },
+  {
+    "section": "chorus2",
+    "en": "Anything can happen in this town",
+    "zh": "在这座城，一切皆有可能",
+    "index": 27,
+    "start": 161.58,
+    "end": 164.56,
+    "words": [
+      {
+        "word": "ANYTHING",
+        "start": 161.58,
+        "end": 162.02,
+        "confidence": 0.954305075109005
+      },
+      {
+        "word": "CAN",
+        "start": 162.08,
+        "end": 162.20000000000002,
+        "confidence": 0.9743978381156921
+      },
+      {
+        "word": "HAPPEN",
+        "start": 162.3,
+        "end": 162.64000000000001,
+        "confidence": 0.9961202541987101
+      },
+      {
+        "word": "IN",
+        "start": 162.84,
+        "end": 162.88,
+        "confidence": 0.9780990183353424
+      },
+      {
+        "word": "THIS",
+        "start": 162.98,
+        "end": 163.12,
+        "confidence": 0.6370996832847595
+      },
+      {
+        "word": "TOWN",
+        "start": 163.20000000000002,
+        "end": 164.56,
+        "confidence": 0.3732593934983015
+      }
+    ]
+  },
+  {
+    "section": "chorus2",
+    "en": "Vice City, one hell of a ride",
+    "zh": "罪城，这一路何等疯狂",
+    "index": 28,
+    "start": 165.04,
+    "end": 168.1,
+    "words": [
+      {
+        "word": "VICE",
+        "start": 165.04,
+        "end": 165.3,
+        "confidence": 0.1447337560239248
+      },
+      {
+        "word": "CITY",
+        "start": 165.44,
+        "end": 166.26,
+        "confidence": 0.035866855876520276
+      },
+      {
+        "word": "ONE",
+        "start": 166.70000000000002,
+        "end": 166.8,
+        "confidence": 0.8550170262654623
+      },
+      {
+        "word": "HELL",
+        "start": 166.9,
+        "end": 167.12,
+        "confidence": 0.3090536883100867
+      },
+      {
+        "word": "OF",
+        "start": 167.32,
+        "end": 167.46,
+        "confidence": 0.4560040347278118
+      },
+      {
+        "word": "A",
+        "start": 167.66,
+        "end": 167.68,
+        "confidence": 0.030632968991994858
+      },
+      {
+        "word": "RIDE",
+        "start": 167.96,
+        "end": 168.1,
+        "confidence": 0.14624071113576065
+      }
+    ]
+  },
+  {
+    "section": "chorus2",
+    "en": "The summer is hot and the nights are long",
+    "zh": "夏日滚烫，长夜漫漫",
+    "index": 29,
+    "start": 168.42000000000002,
+    "end": 171.68,
+    "words": [
+      {
+        "word": "THE",
+        "start": 168.42000000000002,
+        "end": 168.52,
+        "confidence": 0.9785570303599039
+      },
+      {
+        "word": "SUMMER",
+        "start": 168.62,
+        "end": 169.24,
+        "confidence": 0.5494497766097387
+      },
+      {
+        "word": "IS",
+        "start": 169.4,
+        "end": 169.46,
+        "confidence": 0.7129762172698975
+      },
+      {
+        "word": "HOT",
+        "start": 169.56,
+        "end": 169.78,
+        "confidence": 0.23844981690247855
+      },
+      {
+        "word": "AND",
+        "start": 170.02,
+        "end": 170.1,
+        "confidence": 0.7177785535653433
+      },
+      {
+        "word": "THE",
+        "start": 170.18,
+        "end": 170.32,
+        "confidence": 0.006319965701550245
+      },
+      {
+        "word": "NIGHTS",
+        "start": 170.48,
+        "end": 170.88,
+        "confidence": 0.31868659507260116
+      },
+      {
+        "word": "ARE",
+        "start": 171.08,
+        "end": 171.34,
+        "confidence": 0.4027706980705261
+      },
+      {
+        "word": "LONG",
+        "start": 171.44,
+        "end": 171.68,
+        "confidence": 0.48876854788977653
+      }
+    ]
+  },
+  {
+    "section": "chorus2_extra",
+    "en": "Every street corner is singing our song",
+    "zh": "每个街角都在唱我们的歌",
+    "index": 30,
+    "start": 172.32,
+    "end": 175.34,
+    "words": [
+      {
+        "word": "EVERY",
+        "start": 172.32,
+        "end": 172.6,
+        "confidence": 0.9528780817985535
+      },
+      {
+        "word": "STREET",
+        "start": 172.68,
+        "end": 173.0,
+        "confidence": 0.7594060103098551
+      },
+      {
+        "word": "CORNER",
+        "start": 173.16,
+        "end": 173.54,
+        "confidence": 0.9495331446329752
+      },
+      {
+        "word": "IS",
+        "start": 173.9,
+        "end": 173.94,
+        "confidence": 0.08781974762678146
+      },
+      {
+        "word": "SINGING",
+        "start": 174.04,
+        "end": 174.52,
+        "confidence": 0.801414647272655
+      },
+      {
+        "word": "OUR",
+        "start": 174.74,
+        "end": 174.82,
+        "confidence": 0.9395085573196411
+      },
+      {
+        "word": "SONG",
+        "start": 174.96,
+        "end": 175.34,
+        "confidence": 0.948766365647316
+      }
+    ]
+  },
+  {
+    "section": "chorus2_extra",
+    "en": "Out on the road, wild and free, where we belong",
+    "zh": "奔向公路，狂野自由，那是我们的归处",
+    "index": 31,
+    "start": 175.88,
+    "end": 178.92000000000002,
+    "words": [
+      {
+        "word": "OUT",
+        "start": 175.88,
+        "end": 176.14000000000001,
+        "confidence": 0.46821561952431995
+      },
+      {
+        "word": "ON",
+        "start": 176.34,
+        "end": 176.42000000000002,
+        "confidence": 0.9766676127910614
+      },
+      {
+        "word": "THE",
+        "start": 176.6,
+        "end": 176.70000000000002,
+        "confidence": 0.9614154100418091
+      },
+      {
+        "word": "ROAD",
+        "start": 176.78,
+        "end": 177.02,
+        "confidence": 0.042133379145525396
+      },
+      {
+        "word": "WILD",
+        "start": 177.08,
+        "end": 177.44,
+        "confidence": 0.8634094446897507
+      },
+      {
+        "word": "AND",
+        "start": 177.54,
+        "end": 177.62,
+        "confidence": 0.8977463046709696
+      },
+      {
+        "word": "FREE",
+        "start": 177.72,
+        "end": 177.88,
+        "confidence": 0.735469825565815
+      },
+      {
+        "word": "WHERE",
+        "start": 177.96,
+        "end": 178.16,
+        "confidence": 0.3584842665120959
+      },
+      {
+        "word": "WE",
+        "start": 178.22,
+        "end": 178.32,
+        "confidence": 0.43905685655772686
+      },
+      {
+        "word": "BELONG",
+        "start": 178.42000000000002,
+        "end": 178.92000000000002,
+        "confidence": 0.2746221957107385
+      }
+    ]
+  },
+  {
+    "section": "bridge",
+    "en": "When the pretty lights go out along the shore",
+    "zh": "当岸边绚丽的灯光一一熄灭",
+    "index": 32,
+    "start": 179.96,
+    "end": 186.84,
+    "words": [
+      {
+        "word": "WHEN",
+        "start": 179.96,
+        "end": 180.16,
+        "confidence": 0.9559730142354965
+      },
+      {
+        "word": "THE",
+        "start": 180.26,
+        "end": 180.32,
+        "confidence": 0.8864119251569113
+      },
+      {
+        "word": "PRETTY",
+        "start": 180.4,
+        "end": 180.88,
+        "confidence": 0.5356293334237611
+      },
+      {
+        "word": "LIGHTS",
+        "start": 181.12,
+        "end": 181.48,
+        "confidence": 0.6228474726279577
+      },
+      {
+        "word": "GO",
+        "start": 181.56,
+        "end": 181.72,
+        "confidence": 0.9889469146728516
+      },
+      {
+        "word": "OUT",
+        "start": 181.94,
+        "end": 182.04,
+        "confidence": 0.9617441296577454
+      },
+      {
+        "word": "ALONG",
+        "start": 182.14000000000001,
+        "end": 182.62,
+        "confidence": 0.9535513520240784
+      },
+      {
+        "word": "THE",
+        "start": 182.9,
+        "end": 184.38,
+        "confidence": 0.3140874231855075
+      },
+      {
+        "word": "SHORE",
+        "start": 185.84,
+        "end": 186.84,
+        "confidence": 0.16940953836528932
+      }
+    ]
+  },
+  {
+    "section": "bridge",
+    "en": "All the dreamers wake up wanting something more",
+    "zh": "所有做梦的人醒来，仍渴望更多",
+    "index": 33,
+    "start": 187.34,
+    "end": 190.56,
+    "words": [
+      {
+        "word": "ALL",
+        "start": 187.34,
+        "end": 187.44,
+        "confidence": 0.8805261850357056
+      },
+      {
+        "word": "THE",
+        "start": 187.5,
+        "end": 187.58,
+        "confidence": 0.9391130606333414
+      },
+      {
+        "word": "DREAMERS",
+        "start": 187.66,
+        "end": 188.32,
+        "confidence": 0.5899405749514699
+      },
+      {
+        "word": "WAKE",
+        "start": 188.36,
+        "end": 188.70000000000002,
+        "confidence": 0.8752839118242264
+      },
+      {
+        "word": "UP",
+        "start": 188.92000000000002,
+        "end": 188.98,
+        "confidence": 0.8125933110713959
+      },
+      {
+        "word": "WANTING",
+        "start": 189.04,
+        "end": 189.4,
+        "confidence": 0.2975466848168123
+      },
+      {
+        "word": "SOMETHING",
+        "start": 189.48,
+        "end": 189.98,
+        "confidence": 0.9213986661699083
+      },
+      {
+        "word": "MORE",
+        "start": 190.16,
+        "end": 190.56,
+        "confidence": 0.9530583471059799
+      }
+    ]
+  },
+  {
+    "section": "bridge",
+    "en": "Let the ocean take the names we couldn't save",
+    "zh": "让海洋带走那些我们留不住的名字",
+    "index": 34,
+    "start": 194.42000000000002,
+    "end": 198.78,
+    "words": [
+      {
+        "word": "LET",
+        "start": 194.42000000000002,
+        "end": 194.62,
+        "confidence": 0.9894503951072693
+      },
+      {
+        "word": "THE",
+        "start": 194.68,
+        "end": 194.78,
+        "confidence": 0.9547371864318848
+      },
+      {
+        "word": "OCEAN",
+        "start": 194.98000000000002,
+        "end": 195.38,
+        "confidence": 0.8895431160926819
+      },
+      {
+        "word": "TAKE",
+        "start": 195.6,
+        "end": 195.94,
+        "confidence": 0.9503834545612335
+      },
+      {
+        "word": "THE",
+        "start": 196.04,
+        "end": 196.14000000000001,
+        "confidence": 0.9063889781634012
+      },
+      {
+        "word": "NAMES",
+        "start": 196.26,
+        "end": 196.46,
+        "confidence": 0.3554118923842907
+      },
+      {
+        "word": "WE",
+        "start": 196.52,
+        "end": 196.6,
+        "confidence": 0.9982047080993652
+      },
+      {
+        "word": "COULDN'T",
+        "start": 196.70000000000002,
+        "end": 197.14000000000001,
+        "confidence": 0.6099165066880232
+      },
+      {
+        "word": "SAVE",
+        "start": 197.38,
+        "end": 198.78,
+        "confidence": 0.4966899632127024
+      }
+    ]
+  },
+  {
+    "section": "bridge",
+    "en": "Watch the morning turn the skyline into flames",
+    "zh": "看晨光把天际线燃成火焰",
+    "index": 35,
+    "start": 201.64000000000001,
+    "end": 205.98000000000002,
+    "words": [
+      {
+        "word": "WATCH",
+        "start": 201.64000000000001,
+        "end": 201.86,
+        "confidence": 0.9992432594299316
+      },
+      {
+        "word": "THE",
+        "start": 201.96,
+        "end": 202.04,
+        "confidence": 0.9477958480517069
+      },
+      {
+        "word": "MORNING",
+        "start": 202.14000000000001,
+        "end": 202.52,
+        "confidence": 0.7821731769612857
+      },
+      {
+        "word": "TURN",
+        "start": 202.58,
+        "end": 202.78,
+        "confidence": 0.9904540330171585
+      },
+      {
+        "word": "THE",
+        "start": 202.86,
+        "end": 202.92000000000002,
+        "confidence": 0.9927592674891154
+      },
+      {
+        "word": "SKYLINE",
+        "start": 202.98000000000002,
+        "end": 203.96,
+        "confidence": 0.5169924678547042
+      },
+      {
+        "word": "INTO",
+        "start": 204.04,
+        "end": 204.3,
+        "confidence": 0.841802328824997
+      },
+      {
+        "word": "FLAMES",
+        "start": 204.58,
+        "end": 205.98000000000002,
+        "confidence": 0.46957603113454144
+      }
+    ]
+  },
+  {
+    "section": "final",
+    "en": "Vice City, one hell of a ride",
+    "zh": "罪城，这一路何等疯狂",
+    "index": 36,
+    "start": 222.9,
+    "end": 225.9,
+    "words": [
+      {
+        "word": "VICE",
+        "start": 222.9,
+        "end": 223.20000000000002,
+        "confidence": 0.06527695315890014
+      },
+      {
+        "word": "CITY",
+        "start": 223.34,
+        "end": 223.86,
+        "confidence": 0.06106926943175495
+      },
+      {
+        "word": "ONE",
+        "start": 224.58,
+        "end": 224.64000000000001,
+        "confidence": 0.6767988403638204
+      },
+      {
+        "word": "HELL",
+        "start": 224.72,
+        "end": 224.98000000000002,
+        "confidence": 0.8577407896518707
+      },
+      {
+        "word": "OF",
+        "start": 225.16,
+        "end": 225.36,
+        "confidence": 0.15041938051581383
+      },
+      {
+        "word": "A",
+        "start": 225.5,
+        "end": 225.52,
+        "confidence": 0.10879210382699966
+      },
+      {
+        "word": "RIDE",
+        "start": 225.66,
+        "end": 225.9,
+        "confidence": 0.3208121075294912
+      }
+    ]
+  },
+  {
+    "section": "final",
+    "en": "The sun goes down and the streets come alive",
+    "zh": "太阳落下，街道开始苏醒",
+    "index": 37,
+    "start": 226.28,
+    "end": 229.54,
+    "words": [
+      {
+        "word": "THE",
+        "start": 226.28,
+        "end": 226.38,
+        "confidence": 0.9642548561096191
+      },
+      {
+        "word": "SUN",
+        "start": 226.46,
+        "end": 226.74,
+        "confidence": 0.9761269688606262
+      },
+      {
+        "word": "GOES",
+        "start": 226.96,
+        "end": 227.28,
+        "confidence": 0.9960623383522034
+      },
+      {
+        "word": "DOWN",
+        "start": 227.4,
+        "end": 227.70000000000002,
+        "confidence": 0.9964421689510345
+      },
+      {
+        "word": "AND",
+        "start": 227.86,
+        "end": 227.92000000000002,
+        "confidence": 0.5346399222811064
+      },
+      {
+        "word": "THE",
+        "start": 228.1,
+        "end": 228.16,
+        "confidence": 0.9477745691935221
+      },
+      {
+        "word": "STREETS",
+        "start": 228.24,
+        "end": 228.62,
+        "confidence": 0.9462412425449916
+      },
+      {
+        "word": "COME",
+        "start": 228.74,
+        "end": 229.0,
+        "confidence": 0.7511330023407936
+      },
+      {
+        "word": "ALIVE",
+        "start": 229.1,
+        "end": 229.54,
+        "confidence": 0.7283963233232498
+      }
+    ]
+  },
+  {
+    "section": "final",
+    "en": "Fast cars rolling, with the windows down",
+    "zh": "跑车飞驰，车窗尽情敞开",
+    "index": 38,
+    "start": 230.08,
+    "end": 233.12,
+    "words": [
+      {
+        "word": "FAST",
+        "start": 230.08,
+        "end": 230.42000000000002,
+        "confidence": 0.9860720038414001
+      },
+      {
+        "word": "CARS",
+        "start": 230.56,
+        "end": 230.92000000000002,
+        "confidence": 0.7868570610880852
+      },
+      {
+        "word": "ROLLING",
+        "start": 231.0,
+        "end": 231.48000000000002,
+        "confidence": 0.5044563399361712
+      },
+      {
+        "word": "WITH",
+        "start": 231.70000000000002,
+        "end": 231.98000000000002,
+        "confidence": 0.9305530935525894
+      },
+      {
+        "word": "THE",
+        "start": 232.14000000000001,
+        "end": 232.26,
+        "confidence": 0.9850395917892456
+      },
+      {
+        "word": "WINDOWS",
+        "start": 232.38,
+        "end": 232.76,
+        "confidence": 0.9782313789640155
+      },
+      {
+        "word": "DOWN",
+        "start": 232.82,
+        "end": 233.12,
+        "confidence": 0.7928682938218117
+      }
+    ]
+  },
+  {
+    "section": "final",
+    "en": "Anything can happen in this town",
+    "zh": "在这座城，一切皆有可能",
+    "index": 39,
+    "start": 233.9,
+    "end": 236.84,
+    "words": [
+      {
+        "word": "ANYTHING",
+        "start": 233.9,
+        "end": 234.32,
+        "confidence": 0.9614353328943253
+      },
+      {
+        "word": "CAN",
+        "start": 234.38,
+        "end": 234.5,
+        "confidence": 0.9841495951016744
+      },
+      {
+        "word": "HAPPEN",
+        "start": 234.62,
+        "end": 234.98000000000002,
+        "confidence": 0.9772189557552338
+      },
+      {
+        "word": "IN",
+        "start": 235.16,
+        "end": 235.20000000000002,
+        "confidence": 0.7857146561145782
+      },
+      {
+        "word": "THIS",
+        "start": 235.3,
+        "end": 235.44,
+        "confidence": 0.9160134047269821
+      },
+      {
+        "word": "TOWN",
+        "start": 235.5,
+        "end": 236.84,
+        "confidence": 0.8850294947624207
+      }
+    ]
+  },
+  {
+    "section": "final",
+    "en": "Vice City, one hell of a ride",
+    "zh": "罪城，这一路何等疯狂",
+    "index": 40,
+    "start": 237.32,
+    "end": 240.32,
+    "words": [
+      {
+        "word": "VICE",
+        "start": 237.32,
+        "end": 238.16,
+        "confidence": 0.2048342436319217
+      },
+      {
+        "word": "CITY",
+        "start": 238.44,
+        "end": 238.66,
+        "confidence": 0.01449567248346284
+      },
+      {
+        "word": "ONE",
+        "start": 238.98000000000002,
+        "end": 239.06,
+        "confidence": 0.6630157629648844
+      },
+      {
+        "word": "HELL",
+        "start": 239.14000000000001,
+        "end": 239.38,
+        "confidence": 0.8301830440759659
+      },
+      {
+        "word": "OF",
+        "start": 239.56,
+        "end": 239.78,
+        "confidence": 0.18764441087841988
+      },
+      {
+        "word": "A",
+        "start": 239.92000000000002,
+        "end": 239.94,
+        "confidence": 0.10768110305070877
+      },
+      {
+        "word": "RIDE",
+        "start": 240.04,
+        "end": 240.32,
+        "confidence": 0.3856899012462236
+      }
+    ]
+  },
+  {
+    "section": "final",
+    "en": "The summer is hot and the nights are long",
+    "zh": "夏日滚烫，长夜漫漫",
+    "index": 41,
+    "start": 240.68,
+    "end": 243.88,
+    "words": [
+      {
+        "word": "THE",
+        "start": 240.68,
+        "end": 240.78,
+        "confidence": 0.9674824476242065
+      },
+      {
+        "word": "SUMMER",
+        "start": 240.88,
+        "end": 241.34,
+        "confidence": 0.5179483027507862
+      },
+      {
+        "word": "IS",
+        "start": 241.6,
+        "end": 241.68,
+        "confidence": 0.9902199506759644
+      },
+      {
+        "word": "HOT",
+        "start": 241.78,
+        "end": 242.02,
+        "confidence": 0.4184314012527466
+      },
+      {
+        "word": "AND",
+        "start": 242.24,
+        "end": 242.34,
+        "confidence": 0.5894342660903931
+      },
+      {
+        "word": "THE",
+        "start": 242.5,
+        "end": 242.58,
+        "confidence": 0.31987491250038147
+      },
+      {
+        "word": "NIGHTS",
+        "start": 242.72,
+        "end": 243.04,
+        "confidence": 0.7456398556629816
+      },
+      {
+        "word": "ARE",
+        "start": 243.38,
+        "end": 243.5,
+        "confidence": 0.179854242131114
+      },
+      {
+        "word": "LONG",
+        "start": 243.6,
+        "end": 243.88,
+        "confidence": 0.6141022592782974
+      }
+    ]
+  },
+  {
+    "section": "final",
+    "en": "Every street corner is singing our song",
+    "zh": "每个街角都在唱我们的歌",
+    "index": 42,
+    "start": 244.5,
+    "end": 247.52,
+    "words": [
+      {
+        "word": "EVERY",
+        "start": 244.5,
+        "end": 244.82,
+        "confidence": 0.8266581654548645
+      },
+      {
+        "word": "STREET",
+        "start": 244.9,
+        "end": 245.22,
+        "confidence": 0.9305185675621033
+      },
+      {
+        "word": "CORNER",
+        "start": 245.38,
+        "end": 245.78,
+        "confidence": 0.9146661261717478
+      },
+      {
+        "word": "IS",
+        "start": 246.12,
+        "end": 246.16,
+        "confidence": 0.1640533171594143
+      },
+      {
+        "word": "SINGING",
+        "start": 246.28,
+        "end": 246.76000000000002,
+        "confidence": 0.8563590794801712
+      },
+      {
+        "word": "OUR",
+        "start": 246.94,
+        "end": 247.02,
+        "confidence": 0.912355879942576
+      },
+      {
+        "word": "SONG",
+        "start": 247.18,
+        "end": 247.52,
+        "confidence": 0.9361858665943146
+      }
+    ]
+  },
+  {
+    "section": "final",
+    "en": "Out on the road, wild and free, where we belong",
+    "zh": "奔向公路，狂野自由，那是我们的归处",
+    "index": 43,
+    "start": 248.12,
+    "end": 251.24,
+    "words": [
+      {
+        "word": "OUT",
+        "start": 248.12,
+        "end": 248.32,
+        "confidence": 0.7443061073621114
+      },
+      {
+        "word": "ON",
+        "start": 248.54,
+        "end": 248.62,
+        "confidence": 0.4787573516368866
+      },
+      {
+        "word": "THE",
+        "start": 248.78,
+        "end": 248.92000000000002,
+        "confidence": 0.059866766134897866
+      },
+      {
+        "word": "ROAD",
+        "start": 248.96,
+        "end": 249.18,
+        "confidence": 0.2505831151502207
+      },
+      {
+        "word": "WILD",
+        "start": 249.26000000000002,
+        "end": 249.62,
+        "confidence": 0.7414008770138025
+      },
+      {
+        "word": "AND",
+        "start": 249.76000000000002,
+        "end": 249.82,
+        "confidence": 0.7133997281392416
+      },
+      {
+        "word": "FREE",
+        "start": 249.88,
+        "end": 250.08,
+        "confidence": 0.9147439748048782
+      },
+      {
+        "word": "WHERE",
+        "start": 250.14000000000001,
+        "end": 250.34,
+        "confidence": 0.27126816771924495
+      },
+      {
+        "word": "WE",
+        "start": 250.4,
+        "end": 250.5,
+        "confidence": 0.987576425075531
+      },
+      {
+        "word": "BELONG",
+        "start": 250.62,
+        "end": 251.24,
+        "confidence": 0.7771086494127909
+      }
+    ]
+  },
+  {
+    "section": "final",
+    "en": "Out on the road, wild and free, where we belong",
+    "zh": "奔向公路，狂野自由，那是我们的归处",
+    "index": 44,
+    "start": 255.28,
+    "end": 258.26,
+    "words": [
+      {
+        "word": "OUT",
+        "start": 255.28,
+        "end": 255.52,
+        "confidence": 0.6652028759320577
+      },
+      {
+        "word": "ON",
+        "start": 255.74,
+        "end": 255.8,
+        "confidence": 0.628179058432579
+      },
+      {
+        "word": "THE",
+        "start": 256.0,
+        "end": 256.12,
+        "confidence": 0.06907801826794942
+      },
+      {
+        "word": "ROAD",
+        "start": 256.26,
+        "end": 256.4,
+        "confidence": 0.07544465526007116
+      },
+      {
+        "word": "WILD",
+        "start": 256.48,
+        "end": 256.76,
+        "confidence": 0.43561260122805834
+      },
+      {
+        "word": "AND",
+        "start": 256.92,
+        "end": 257.02,
+        "confidence": 0.5036064982414246
+      },
+      {
+        "word": "FREE",
+        "start": 257.14,
+        "end": 257.24,
+        "confidence": 0.25370432157069445
+      },
+      {
+        "word": "WHERE",
+        "start": 257.36,
+        "end": 257.6,
+        "confidence": 0.175902839936316
+      },
+      {
+        "word": "WE",
+        "start": 257.64,
+        "end": 257.74,
+        "confidence": 0.5488326698541641
+      },
+      {
+        "word": "BELONG",
+        "start": 257.82,
+        "end": 258.26,
+        "confidence": 0.26456985498468083
+      }
+    ]
+  }
+]

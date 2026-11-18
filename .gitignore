@@ -1,0 +1,13 @@
+.venv/
+.cache/
+__pycache__/
+*.pyc
+analysis/*.npy
+analysis/*.wav
+analysis/*.npz
+analysis/*.log
+analysis/*concat.txt
+analysis/candidates.json
+references/
+frames/
+output/

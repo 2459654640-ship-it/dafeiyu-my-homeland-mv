@@ -1,0 +1,32 @@
+[
+  {
+    "name": "official-ambrosia",
+    "frames": 22,
+    "width": 1280,
+    "height": 852
+  },
+  {
+    "name": "official-grassrivers",
+    "frames": 24,
+    "width": 1280,
+    "height": 852
+  },
+  {
+    "name": "official-leonida-keys",
+    "frames": 24,
+    "width": 1280,
+    "height": 852
+  },
+  {
+    "name": "official-port-gellhorn",
+    "frames": 24,
+    "width": 1280,
+    "height": 852
+  },
+  {
+    "name": "official-vice-city",
+    "frames": 24,
+    "width": 1280,
+    "height": 852
+  }
+]
