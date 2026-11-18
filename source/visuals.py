@@ -9,8 +9,8 @@ def smooth(x):x=clamp(x);return x*x*(3-2*x)
 def col(c,a):return tuple(int(v*clamp(a)) for v in c)
 @functools.lru_cache(128)
 def font(n,kind='display'):
- paths={'display':str(R/'assets/Display.ttf'),'cond':str(R/'assets/BarlowCondensed-ExtraBold.ttf'),'en':'/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf','italic':'/usr/share/fonts/truetype/dejavu/DejaVuSans-BoldOblique.ttf','zh':str(R/'assets/NotoSansCJK-Regular.ttc')}
- return ImageFont.truetype(paths[kind],int(n))
+ paths={'display':str(R/'assets/Display.ttf'),'cond':str(R/'assets/BarlowCondensed-ExtraBold.ttf'),'en':'/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf','italic':'/usr/share/fonts/truetype/dejavu/DejaVuSans-BoldOblique.ttf','zh':str(R/'assets/NotoSansCJK-Regular.ttc'),'zhbold':str(R/'assets/NotoSansCJK-Bold.ttc')}
+ return ImageFont.truetype(paths[kind],int(n),index=2 if kind in ['zh','zhbold'] else 0)
 @functools.lru_cache(3000)
 def sprite(s,n,kind,c):
  f=font(n,kind);box=f.getbbox(s);a=Image.new('RGBA',(max(1,math.ceil(f.getlength(s))+12),n+30));ImageDraw.Draw(a).text((5,-box[1]+4),s,font=f,fill=(*c,255));return a

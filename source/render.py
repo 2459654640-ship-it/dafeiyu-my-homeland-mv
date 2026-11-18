@@ -39,6 +39,6 @@ def main():
  with concurrent.futures.ProcessPoolExecutor(max_workers=args.workers) as pool:parts=list(pool.map(encode,jobs))
  concat=R/f'analysis/{args.name}-concat.txt';concat.write_text(''.join(f"file '{p.as_posix()}'\n" for p in parts))
  dest=R/'output'/('Vice_City_My_Home_1080p60_HQ.mp4' if args.name=='master' else f'{args.name}.mp4')
- subprocess.run(['ffmpeg','-y','-v','warning','-f','concat','-safe','0','-i',str(concat),'-ss',str(args.start),'-i',str(R/'assets/song.mp3'),'-map','0:v:0','-map','1:a:0','-c:v','copy','-c:a','aac','-b:a','320k','-ar','48000','-t',str(args.end-args.start),'-movflags','+faststart','-metadata','title=Vice City, My Home','-metadata','comment=Fan-made music video; official GTA VI footage: Rockstar Games; visual animation and AI-assisted assets.',str(dest)],check=True)
+ subprocess.run(['ffmpeg','-y','-v','warning','-f','concat','-safe','0','-i',str(concat),'-ss',str(args.start),'-i',str(R/'assets/song.mp3'),'-map','0:v:0','-map','1:a:0','-c:v','copy','-c:a','aac','-b:a','320k','-ar','48000','-t',str(args.end-args.start),'-movflags','+faststart','-metadata','title=Vice City, My Home','-metadata','artist=梨茗子','-metadata','author=梨茗子','-metadata','comment=Fan-made music video; official GTA VI footage: Rockstar Games; visual animation and AI-assisted assets.',str(dest)],check=True)
  print('COMPLETE',dest,flush=True)
 if __name__=='__main__':main()

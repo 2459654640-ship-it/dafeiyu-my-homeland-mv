@@ -5,11 +5,11 @@ R=Path(__file__).resolve().parents[1];OUT=R/'output';OUT.mkdir(exist_ok=True)
 def timecode(t):
  ms=round(t*1000);return f'{ms//3600000:02d}:{ms//60000%60:02d}:{ms//1000%60:02d},{ms%1000:03d}'
 lyrics=json.loads((R/'analysis/lyrics.json').read_text());sub='\n'.join(f"{i+1}\n{timecode(l['start'])} --> {timecode(min(l['end']+.28,lyrics[i+1]['start']-.01) if i+1<len(lyrics) else l['end']+.28)}\n{l['en']}\n{l['zh']}\n" for i,l in enumerate(lyrics));(OUT/'Vice_City_My_Home_Bilingual.srt').write_text(sub,encoding='utf-8-sig')
-cover=R/'frames/styled-3.4.jpg'
+cover=R/'frames/chinese-6.4.jpg'
 if cover.exists():shutil.copy2(cover,OUT/'Vice_City_My_Home_Cover.jpg')
 else:
  from render import Composer
- Composer().frame(3.4).save(OUT/'Vice_City_My_Home_Cover.jpg',quality=95)
+ Composer().frame(6.4).save(OUT/'Vice_City_My_Home_Cover.jpg',quality=95)
 files=[R/x for x in ['README.md','SOURCES.md','LICENSE','requirements.txt','requirements-analysis.txt']]+sorted((R/'source').glob('*.py'))
 files+=sorted(f for f in (R/'assets').rglob('*') if f.is_file() and not f.name.startswith('official-'))
 files += [R/'analysis'/x for x in ['lyrics.json','hits.json','shot-sources.json','timeline.json','cache-style.json']]

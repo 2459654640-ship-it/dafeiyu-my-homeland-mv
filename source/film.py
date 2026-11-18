@@ -33,15 +33,16 @@ class Film:
  def subtitle(self,im,t):
   line=next((l for l in self.lyrics if l['start']<=t<l['end']+.28),None)
   if not line:return
-  d=ImageDraw.Draw(im);d.rectangle((0,942,W,H),fill=(2,3,8,248))
-  words=line['words'];size=53;total=sum(font(size,'cond').getlength(w['word']) for w in words)+12*(len(words)-1)
-  if total>1740:size=int(size*1740/total);total=sum(font(size,'cond').getlength(w['word']) for w in words)+12*(len(words)-1)
+  d=ImageDraw.Draw(im);d.rectangle((0,920,W,H),fill=(2,3,8,255))
+  age=t-line['start'];q=1-(1-clamp(age/.18))**3;rise=round((1-q)*22)
+  n=64
+  while font(n,'zhbold').getlength(line['zh'])>1740:n-=1
+  center(im,932+rise,line['zh'],n,WHITE,'zhbold',.4+.6*q)
+  words=line['words'];size=40;total=sum(font(size,'cond').getlength(w['word']) for w in words)+10*(len(words)-1)
+  if total>1740:size=int(size*1740/total);total=sum(font(size,'cond').getlength(w['word']) for w in words)+10*(len(words)-1)
   x=(W-total)/2
   for w in words:
-   hot=w['start']<=t<=w['end'];text(im,(x,952),w['word'],size,PINK if hot else WHITE,'cond');x+=font(size,'cond').getlength(w['word'])+12
-  n=40
-  while font(n,'zh').getlength(line['zh'])>1740:n-=1
-  center(im,1017,line['zh'],n,(212,222,234),'zh')
+   hot=w['start']<=t<=w['end'];text(im,(x,1015),w['word'],size,PINK if hot else (181,192,209),'cond');x+=font(size,'cond').getlength(w['word'])+10
  def label(self,im,upper,lower,t,c,xy=(80,180),big=205):
   age=t-self.current_shot['start'];xx=xy[0]-(1-smooth(age/.45))*140
   self.g.typography(im,upper,t,WHITE,xx,xy[1],big)
@@ -90,14 +91,21 @@ class Film:
    else:self.g.ribbons(im,t,c,c2,kick);center(im,330,'VI',340,WHITE);text(im,(90,105),'AFTER DARK / NO LIMITS',45,c2,'cond')
   elif m=='title':
    self.g.skyline(im,t*.5,c,c2);self.g.mask(im,t,'opening-poster','vice-city',1300,480,1070,930,c,c2,'opening-transform',smooth(t/.45));q=smooth((e-.5)/1.5)
-   text(im,(92,145),'VICE CITY',245,WHITE,'display',q);text(im,(102,410),'MY HOME',147,c,'display',q);text(im,(108,594),'罪城，我的家乡',43,WHITE,'zh',q)
-   text(im,(109,735),'OCEAN DRIVE  /  AFTER DARK',30,c2,'cond',q)
+   # Musical phrase accents and the first drum hits drive the Chinese title entrance.
+   a=smooth((t-2.6471)/.25)
+   text(im,(96-(1-a)*85,185),'罪城',160,WHITE,'zhbold',a)
+   for j,(ch,onset) in enumerate(zip('我的家乡',[3.8081,4.8878,5.7934,5.7934])):
+    v=1-(1-clamp((t-onset)/.24))**3
+    text(im,(101+j*133,427+(1-v)*55),ch,128,c if j>1 else WHITE,'zhbold',v)
+   text(im,(108,655),'VICE CITY, MY HOME',73,c2,'display',q)
+   text(im,(111,776),'海洋大道 / 日落之后',36,WHITE,'zhbold',smooth((t-4.8878)/.3))
+   if t>2.6471:ImageDraw.Draw(im).line((110,611,110+int(610*smooth((t-2.6471)/.5)),611),fill=c2,width=4)
    self.g.burst(im,t-2.9,c,c2,.8)
   elif m=='portal':
    self.g.tunnel(im,t,c,c2,kick);self.g.ribbons(im,t,c,c2,kick)
    self.g.mask(im,t,'jason','vice-city',505,475,850,850,c,c2,'lead-transform',.98)
    self.g.mask(im,t,'lucia','vice-city',1430,475,850,850,c2,c,'lead-transform',.98)
-   center(im,53,'TWO SOULS / ONE CITY',77,WHITE);center(im,833,'JASON  ×  LUCIA',64,c)
+   center(im,47,'两个人，一座城',62,WHITE,'zhbold');center(im,833,'JASON  ×  LUCIA',64,c)
   elif m in ['drive','city','chorus','cityburst','anything','corner','home']:
    self.g.skyline(im,t,c,c2);self.g.rings(im,t,c,kick)
    clip='vice-city' if m not in ['home','corner'] else 'port-gellhorn'
@@ -152,8 +160,9 @@ class Film:
    else:
     self.g.road(im,t*1.4,PINK,GOLD,3);self.g.rings(im,t,PINK,kick);center(im,175,'VICE CITY',225,WHITE);self.g.burst(im,e,PINK,GOLD,1.5)
   else:
-   self.poster(im,t,'vice-city',PINK,CYAN,'portal',cx=1380,style='outline');self.label(im,'VICE CITY','MY HOME',t,PINK,xy=(80,210),big=235)
-   text(im,(93,615),'罪城，我的家乡',43,WHITE,'zh');text(im,(96,717),'歌曲与歌词：用户提供',26,WHITE,'zh');text(im,(96,762),'GTA VI 官方场景素材：Rockstar Games',26,WHITE,'zh');text(im,(96,807),'视觉：程序动画 · AI 辅助角色剪影',26,WHITE,'zh')
+   self.poster(im,t,'vice-city',PINK,CYAN,'portal',cx=1480,style='outline')
+   text(im,(92,150),'罪城',152,WHITE,'zhbold');text(im,(96,348),'我的家乡',112,PINK,'zhbold');text(im,(101,523),'VICE CITY, MY HOME',77,CYAN,'display')
+   text(im,(105,672),'音乐 / 歌词：梨茗子',40,WHITE,'zhbold');text(im,(105,729),'GTA VI 官方场景影像：Rockstar Games',32,WHITE,'zhbold');text(im,(105,782),'视觉：程序动画 · AI 辅助角色剪影',32,WHITE,'zhbold')
   self.g.shutters(im,t,c,snare if not quiet else 0)
   if final:self.g.burst(im,e,c,c2,1.3)
   # Soft optical blending at every planned cut; the incoming geometry continues moving.
