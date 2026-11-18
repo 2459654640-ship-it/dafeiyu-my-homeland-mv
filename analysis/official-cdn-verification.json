@@ -1,0 +1,20 @@
+{
+  "source": "https://videos-rockstargames-com.akamaized.net/v4/rk721912/flv/en-us-1080p.mp4",
+  "file_bytes": 1980545083,
+  "checks": [
+    {
+      "offset": 0,
+      "length": 65536,
+      "content_range": "bytes 0-65535/1980545083",
+      "sha256": "8f3c94477e8c1371aa832779071747cf2ab3de36e347846bb30dbfe952ffd7b1",
+      "matches_cached_official_master": true
+    },
+    {
+      "offset": 1980479547,
+      "length": 65536,
+      "content_range": "bytes 1980479547-1980545082/1980545083",
+      "sha256": "d021ef2e589138513def409b8c31d274ce4e2f4c56d39d9c25e7757a91b7e758",
+      "matches_cached_official_master": true
+    }
+  ]
+}

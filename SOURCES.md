@@ -36,3 +36,11 @@
 - 许可文件均在 `assets/font-licenses/`。
 
 `LICENSE` 仅适用于本项目原创程序代码，不覆盖音乐、第三方影像、游戏角色或字体。
+
+## 本次追加核验与新素材
+
+- 已重新从 Rockstar 官网确认 `an-extended-look` 对应播放器 `rk721912`；官方播放器明确标注游戏为 Grand Theft Auto VI。
+- 本片的动态游戏画面来自官方《An Extended Look》宣传长片，不将其标成 Trailer 1 或 Trailer 2。没有加入玩家录屏、非官方剪辑或其他游戏的实机素材。
+- 官方 CDN 文件首尾范围与本地源长片逐字节一致；30 段选用视频的首、中、尾画面均与该源长片对应时间点比对通过。详细数据在 `analysis/official-source-audit.json`、`official-cdn-verification.json` 与 `official-video-metadata.json`。
+- GTA VI 标志直接取自 Rockstar 官网公开图片，裁去透明边距后按原比例展示；来源与校验值见 `analysis/logo-provenance.json`。
+- `action-mattes-atlas.png` 与 `mobility-mattes-atlas.png` 是本次新增的 AI 剪影图集。`mask-*.png` 是从图集提取并清理 alpha 的十种合成蒙版，用于跑车、敞篷车、直升机、快艇、摩托、枪械及双人行动姿态。它们属于 AI 生成视觉素材，不冒称官方宣传片截图。

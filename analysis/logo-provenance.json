@@ -1,0 +1,8 @@
+{
+  "official_page": "https://www.rockstargames.com/VI",
+  "source": "https://www.rockstargames.com/VI/_next/static/media/poster_logo.0m-7c805zusl7.png",
+  "asset": "assets/official-gta-vi-logo.png",
+  "processing": "Transparent-margin crop only; original official logo colors and proportions retained.",
+  "source_sha256": "746f7c8d905ae333ec9cbbf4b139221409f88c2c72a2a7d95d21c8c7715b997c",
+  "asset_sha256": "ff56e1c8a1ce7d23a1121c76f7cebd65bdfd38c63b97b2d449405e87d10b782e"
+}

@@ -2,6 +2,7 @@ import math,json,bisect,functools
 import numpy as np,cv2
 from PIL import Image,ImageDraw
 from visuals import *
+MASK_MONTAGE={4:'mask-coupe',6:'mask-motorcycle',8:'mask-helicopter',10:'mask-convertible',11:'mask-helicopter',14:'mask-speedboat',19:'mask-combat-cover',20:'mask-motorcycle',22:'mask-pistols',23:'mask-coupe',25:'mask-running',29:'mask-coupe',41:'mask-convertible',42:'mask-combat-back',44:'mask-pistols',45:'mask-combat-standing',47:'mask-helicopter',55:'mask-motorcycle',59:'mask-combat-back',60:'mask-coupe',62:'mask-pistols',65:'mask-running'}
 class Film:
  def __init__(self):
   self.g=Graphics();self.lyrics=json.loads((R/'analysis/lyrics.json').read_text());self.hits=json.loads((R/'analysis/hits.json').read_text());self.tracks={k:np.array([x['t'] for x in v]) for k,v in self.hits.items()};self.strength={k:np.array([x['s'] for x in v]) for k,v in self.hits.items()};self.plan=[]
@@ -52,7 +53,14 @@ class Film:
   self.g.mask(im,t,name,'vice-city',cx+math.sin(t*.5)*22,490+math.sin(t*.7)*8,850,920,c,c2,style,alpha)
  def poster(self,im,t,clip,c,c2,name='portal',cx=1180,w=1070,style='video'):
   if name=='portal' and self.current_shot['mode']!='title':name=['jason','lucia-walk','jason-lean','lucia-turn'][self.current_shot['index']%4]
-  self.g.mask(im,t,name,clip,cx,480,w,930,c,c2,style,.95)
+  roll=0;cy=480;h=930
+  if style=='video' and self.current_shot['index'] in MASK_MONTAGE:
+   name=MASK_MONTAGE[self.current_shot['index']];e=t-self.current_shot['start'];arrival=(1-smooth(e/.5))*140
+   wide=name in ['mask-coupe','mask-convertible','mask-helicopter','mask-speedboat','mask-motorcycle']
+   w=1480 if self.current_shot['mode']=='rush' else 1230 if wide else 950;h=680 if wide else 860;cx=960 if self.current_shot['mode']=='rush' else 1260
+   cx+=arrival+math.sin(t*.7)*28;cy=475+math.sin(t*1.3)*16;roll=math.sin(t*.8)*(8 if name=='mask-pistols' else 3)
+   if name=='mask-helicopter':cy=390+math.sin(t*1.2)*35
+  self.g.mask(im,t,name,clip,cx,cy,w,h,c,c2,style,.95,roll)
  def billboard(self,im,t,title,subtitle,c,price=False):
   card=Image.new('RGBA',(1500,600),(6,7,18,250));d=ImageDraw.Draw(card)
   d.rectangle((3,3,1496,596),outline=c,width=4)
@@ -87,7 +95,7 @@ class Film:
   im=Image.new('RGBA',(W,H),(*BG,255));self.g.stars(im,t,c,.3 if quiet else .65)
   if m in ['rush','tunnel']:
    self.g.tunnel(im,t,c,c2,kick)
-   if m=='rush':self.g.aperture(im,t,c,c2);self.g.typography(im,'VICE CITY',t,WHITE,65,650,210,outline=True)
+   if m=='rush':self.poster(im,t,'vice-city',c,c2);self.g.ribbons(im,t,c,c2,kick);self.g.typography(im,'VICE CITY',t,WHITE,65,650,210,outline=True)
    else:self.g.ribbons(im,t,c,c2,kick);center(im,330,'VI',340,WHITE);text(im,(90,105),'AFTER DARK / NO LIMITS',45,c2,'cond')
   elif m=='title':
    self.g.skyline(im,t*.5,c,c2);self.g.mask(im,t,'opening-poster','vice-city',1300,480,1070,930,c,c2,'opening-transform',smooth(t/.45));q=smooth((e-.5)/1.5)
@@ -101,11 +109,12 @@ class Film:
    text(im,(111,776),'海洋大道 / 日落之后',36,WHITE,'zhbold',smooth((t-4.8878)/.3))
    if t>2.6471:ImageDraw.Draw(im).line((110,611,110+int(610*smooth((t-2.6471)/.5)),611),fill=c2,width=4)
    self.g.burst(im,t-2.9,c,c2,.8)
+   self.g.official_logo(im,t,438,330-(1-smooth((t-.15)/.25))*28,420,smooth((t-.15)/.25)*(1-smooth((t-2.18)/.4)))
   elif m=='portal':
    self.g.tunnel(im,t,c,c2,kick);self.g.ribbons(im,t,c,c2,kick)
    self.g.mask(im,t,'jason','vice-city',505,475,850,850,c,c2,'lead-transform',.98)
    self.g.mask(im,t,'lucia','vice-city',1430,475,850,850,c2,c,'lead-transform',.98)
-   center(im,47,'两个人，一座城',62,WHITE,'zhbold');center(im,833,'JASON  ×  LUCIA',64,c)
+   center(im,833,'JASON  ×  LUCIA',64,c)
   elif m in ['drive','city','chorus','cityburst','anything','corner','home']:
    self.g.skyline(im,t,c,c2);self.g.rings(im,t,c,kick)
    clip='vice-city' if m not in ['home','corner'] else 'port-gellhorn'
@@ -121,6 +130,8 @@ class Film:
    else:text(im,(70,100),'VICE CITY / MY HOME',43,WHITE,'display')
   elif m in ['road','traffic','keys','fastcar','free']:
    self.g.skyline(im,t*.8,c,c2);self.g.road(im,t,c,c2,1.8 if final else 1);self.g.palms(im,t,c2,.8)
+   if m in ['fastcar','free']:
+    self.g.mask(im,t,'mask-convertible' if m=='free' else 'mask-coupe','vice-city',1060+180*math.sin(e*.6),665,1230,430,c,c2,'outline',.85,math.sin(t*.7)*2)
    if m=='free':
     self.g.typography(im,'WILD & FREE',t,WHITE,-80+math.sin(t*.3)*80,170,235,outline=True)
     self.role(im,t,'lucia' if s['index']%2 else 'jason',c,c2,cx=1440,style='ink',alpha=.8)
@@ -134,7 +145,7 @@ class Film:
     for i in range(45):
      x=80+i*32;y=640+(i%5)*8;ImageDraw.Draw(im).line((x,y,x,y+32),fill=col(c2,.6),width=2)
    elif m=='duet':
-    self.g.rings(im,t,c,kick);self.role(im,t,'jason',c,c2,cx=535,style='ink');self.role(im,t,'lucia',c2,c,cx=1430,style='ink');center(im,105,'SAME CITY. SAME SKY.',95,WHITE)
+    self.g.rings(im,t,c,kick);self.role(im,t,'jason',c,c2,cx=535,style='ink');self.role(im,t,'lucia',c2,c,cx=1430,style='ink')
    elif m=='reels':self.filmstrip(im,t,e,c);self.g.typography(im,'VICE CITY',t,WHITE,80,580,180,outline=True)
    elif m=='build':self.g.road(im,t,c,c2,2);self.g.rings(im,t,c2,kick);self.poster(im,t,'vice-city',c,c2,cx=1310,style='outline')
    else:self.g.skyline(im,t,c,c2);self.g.palms(im,t,c);self.billboard(im,t,'PINK HOTELS','NEON NIGHTS / OCEAN DRIVE',c)
@@ -160,7 +171,7 @@ class Film:
    else:
     self.g.road(im,t*1.4,PINK,GOLD,3);self.g.rings(im,t,PINK,kick);center(im,175,'VICE CITY',225,WHITE);self.g.burst(im,e,PINK,GOLD,1.5)
   else:
-   self.poster(im,t,'vice-city',PINK,CYAN,'portal',cx=1480,style='outline')
+   self.g.official_logo(im,t,1435,365,475,smooth((e-.2)/.45))
    text(im,(92,150),'罪城',152,WHITE,'zhbold');text(im,(96,348),'我的家乡',112,PINK,'zhbold');text(im,(101,523),'VICE CITY, MY HOME',77,CYAN,'display')
    text(im,(105,672),'音乐 / 歌词：梨茗子',40,WHITE,'zhbold');text(im,(105,729),'GTA VI 官方场景影像：Rockstar Games',32,WHITE,'zhbold');text(im,(105,782),'视觉：程序动画 · AI 辅助角色剪影',32,WHITE,'zhbold')
   self.g.shutters(im,t,c,snare if not quiet else 0)

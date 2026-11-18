@@ -55,7 +55,7 @@ class Graphics:
    if style=='ink':rgb=(grad*np.clip((cv2.cvtColor(rgb,cv2.COLOR_RGB2GRAY)/255.-.1)*1.4,0,1)[:,:,None]).astype('u1')
   else:rgb=(grad*(.025 if style=='outline' else .65)).astype('u1')
   edges=(grad*(edge/255.)[:,:,None]*.8).astype('u1');return a,grad,edges,cv2.add(rgb,edges)
- def mask(self,im,t,name='portal',clip='vice-city',cx=1150,cy=480,w=1000,h=930,c=PINK,c2=CYAN,style='video',opacity=1):
+ def mask(self,im,t,name='portal',clip='vice-city',cx=1150,cy=480,w=1000,h=930,c=PINK,c2=CYAN,style='video',opacity=1,roll=0):
   a,grad,edges,base=self.colored(name,w,h,tuple(c),tuple(c2),style);hh,ww=a.shape;x=int(cx-ww/2);y=int(cy-hh/2)
   if style in ['video','opening-transform','lead-transform']:
    frame=self.scene(clip,t,ww,hh);lum=cv2.cvtColor(frame,cv2.COLOR_RGB2GRAY).astype('f4')/255;rgb=np.clip(frame.astype('f4')*.36+grad*(.12+lum[:,:,None]*.66),0,255).astype('u1');rgb=cv2.add(rgb,edges)
@@ -65,7 +65,15 @@ class Graphics:
     if 0<phase<1:
      beam=np.exp(-((yy-scan)/13)**2);rgb=np.clip(rgb.astype('f4')+beam*np.array(CYAN,dtype='f4')*.85,0,255).astype('u1')
   else:rgb=base
-  rgba=np.empty((hh,ww,4),dtype='u1');rgba[:,:,:3]=rgb;rgba[:,:,3]=a if opacity>=.999 else (a*opacity).astype('u1');im.alpha_composite(Image.fromarray(rgba),(x,y))
+  rgba=np.empty((hh,ww,4),dtype='u1');rgba[:,:,:3]=rgb;rgba[:,:,3]=a if opacity>=.999 else (a*opacity).astype('u1');layer=Image.fromarray(rgba)
+  if roll:
+   layer=layer.rotate(roll,Image.Resampling.BICUBIC,expand=True);x=round(cx-layer.width/2);y=round(cy-layer.height/2)
+  im.alpha_composite(layer,(x,y))
+ @functools.lru_cache(8)
+ def logo_sprite(self,height):
+  a=Image.open(R/'assets/official-gta-vi-logo.png').convert('RGBA');return a.resize((round(a.width*height/a.height),height),Image.Resampling.LANCZOS)
+ def official_logo(self,im,t,cx,cy,height,opacity=1):
+  a=self.logo_sprite(height).copy();a.putalpha(a.getchannel('A').point(lambda v:round(v*clamp(opacity))));im.alpha_composite(a,(round(cx-a.width/2),round(cy-a.height/2)))
  def stars(self,im,t,c,drive=.6):
   d=ImageDraw.Draw(im)
   for i,r in enumerate(self.seeds[:int(70+150*drive)]):

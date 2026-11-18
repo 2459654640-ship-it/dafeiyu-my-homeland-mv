@@ -1,0 +1,315 @@
+{
+  "publisher": "Rockstar Games",
+  "official_page": "https://www.rockstargames.com/VI",
+  "official_metadata": "https://videos.rockstargames.com/v4/rk721912/data/en_us-context-embed.json",
+  "title": "An Extended Look",
+  "game": "Grand Theft Auto VI",
+  "video_id": "rk721912",
+  "official_video_linked_from_official_site": true,
+  "source_sha256": "c1d0e4a9a0d5b36969415713f254f10b94e0039577a834cb3025f95133b385fd",
+  "excerpt_count": 30,
+  "checks": [
+    {
+      "name": "shot-00-0",
+      "source_start": 1119.9,
+      "source_end": 1127.3,
+      "sample_psnr_db": [
+        41.65,
+        40.78,
+        39.36
+      ]
+    },
+    {
+      "name": "shot-01-0",
+      "source_start": 760.0,
+      "source_end": 767.4,
+      "sample_psnr_db": [
+        42.2,
+        39.88,
+        39.69
+      ]
+    },
+    {
+      "name": "shot-04-0",
+      "source_start": 1134.0,
+      "source_end": 1136.6327,
+      "sample_psnr_db": [
+        41.38,
+        39.55,
+        37.88
+      ]
+    },
+    {
+      "name": "shot-06-0",
+      "source_start": 1221.5,
+      "source_end": 1223.822,
+      "sample_psnr_db": [
+        40.61,
+        35.9,
+        38.44
+      ]
+    },
+    {
+      "name": "shot-08-0",
+      "source_start": 1142.1,
+      "source_end": 1143.3439,
+      "sample_psnr_db": [
+        39.5,
+        38.15,
+        36.29
+      ]
+    },
+    {
+      "name": "shot-10-0",
+      "source_start": 503.0,
+      "source_end": 506.5,
+      "sample_psnr_db": [
+        39.89,
+        40.32,
+        38.13
+      ]
+    },
+    {
+      "name": "shot-11-0",
+      "source_start": 510.0,
+      "source_end": 513.72,
+      "sample_psnr_db": [
+        40.97,
+        39.38,
+        37.88
+      ]
+    },
+    {
+      "name": "shot-14-0",
+      "source_start": 1129.0,
+      "source_end": 1132.7,
+      "sample_psnr_db": [
+        41.82,
+        38.11,
+        39.24
+      ]
+    },
+    {
+      "name": "shot-19-0",
+      "source_start": 1104.0,
+      "source_end": 1107.7,
+      "sample_psnr_db": [
+        36.98,
+        35.72,
+        36.25
+      ]
+    },
+    {
+      "name": "shot-20-0",
+      "source_start": 1062.0,
+      "source_end": 1065.9,
+      "sample_psnr_db": [
+        41.22,
+        38.18,
+        40.78
+      ]
+    },
+    {
+      "name": "shot-22-0",
+      "source_start": 920.2,
+      "source_end": 923.74,
+      "sample_psnr_db": [
+        44.7,
+        40.76,
+        41.58
+      ]
+    },
+    {
+      "name": "shot-23-0",
+      "source_start": 1233.0,
+      "source_end": 1236.44,
+      "sample_psnr_db": [
+        41.35,
+        40.4,
+        39.76
+      ]
+    },
+    {
+      "name": "shot-25-0",
+      "source_start": 1261.0,
+      "source_end": 1264.66,
+      "sample_psnr_db": [
+        43.09,
+        40.69,
+        40.27
+      ]
+    },
+    {
+      "name": "shot-27-0",
+      "source_start": 519.0,
+      "source_end": 521.3974,
+      "sample_psnr_db": [
+        39.02,
+        38.13,
+        37.91
+      ]
+    },
+    {
+      "name": "shot-27-1",
+      "source_start": 529.0,
+      "source_end": 531.3974,
+      "sample_psnr_db": [
+        40.62,
+        39.36,
+        39.02
+      ]
+    },
+    {
+      "name": "shot-27-2",
+      "source_start": 778.0,
+      "source_end": 780.3974,
+      "sample_psnr_db": [
+        42.43,
+        42.24,
+        41.02
+      ]
+    },
+    {
+      "name": "shot-27-3",
+      "source_start": 984.0,
+      "source_end": 986.3974,
+      "sample_psnr_db": [
+        39.83,
+        39.94,
+        37.41
+      ]
+    },
+    {
+      "name": "shot-29-0",
+      "source_start": 948.0,
+      "source_end": 950.7155,
+      "sample_psnr_db": [
+        40.22,
+        40.85,
+        39.34
+      ]
+    },
+    {
+      "name": "shot-41-0",
+      "source_start": 797.0,
+      "source_end": 800.42,
+      "sample_psnr_db": [
+        46.69,
+        45.81,
+        44.84
+      ]
+    },
+    {
+      "name": "shot-42-0",
+      "source_start": 768.0,
+      "source_end": 771.8,
+      "sample_psnr_db": [
+        40.6,
+        39.55,
+        40.55
+      ]
+    },
+    {
+      "name": "shot-44-0",
+      "source_start": 924.0,
+      "source_end": 927.46,
+      "sample_psnr_db": [
+        41.66,
+        40.67,
+        41.68
+      ]
+    },
+    {
+      "name": "shot-45-0",
+      "source_start": 900.0,
+      "source_end": 903.38,
+      "sample_psnr_db": [
+        47.74,
+        45.05,
+        46.13
+      ]
+    },
+    {
+      "name": "shot-47-0",
+      "source_start": 1281.0,
+      "source_end": 1284.56,
+      "sample_psnr_db": [
+        42.72,
+        41.9,
+        40.55
+      ]
+    },
+    {
+      "name": "shot-55-0",
+      "source_start": 935.0,
+      "source_end": 937.25,
+      "sample_psnr_db": [
+        40.05,
+        39.01,
+        37.85
+      ]
+    },
+    {
+      "name": "shot-59-0",
+      "source_start": 773.0,
+      "source_end": 776.38,
+      "sample_psnr_db": [
+        41.61,
+        41.15,
+        40.92
+      ]
+    },
+    {
+      "name": "shot-60-0",
+      "source_start": 1066.0,
+      "source_end": 1069.8,
+      "sample_psnr_db": [
+        41.31,
+        39.79,
+        38.46
+      ]
+    },
+    {
+      "name": "shot-62-0",
+      "source_start": 938.0,
+      "source_end": 941.42,
+      "sample_psnr_db": [
+        40.5,
+        39.28,
+        39.43
+      ]
+    },
+    {
+      "name": "shot-63-0",
+      "source_start": 743.0,
+      "source_end": 746.36,
+      "sample_psnr_db": [
+        42.74,
+        39.67,
+        38.77
+      ]
+    },
+    {
+      "name": "shot-65-0",
+      "source_start": 1137.0,
+      "source_end": 1140.62,
+      "sample_psnr_db": [
+        46.55,
+        38.98,
+        38.64
+      ]
+    },
+    {
+      "name": "shot-68-0",
+      "source_start": 783.0,
+      "source_end": 788.0,
+      "sample_psnr_db": [
+        42.66,
+        40.21,
+        41.15
+      ]
+    }
+  ],
+  "shader_cache_samples_verified": 90,
+  "shader_cache_matches_verified_official_excerpts": true
+}
