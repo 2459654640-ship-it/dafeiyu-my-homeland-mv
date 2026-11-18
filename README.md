@@ -4,6 +4,8 @@
 
 ## 成片与素材
 
+[高清成片](https://github.com/2459654640-ship-it/vice-city-my-home-mv/releases/latest/download/Vice_City_My_Home_1080p60_HQ.mp4) · [可编辑工程](https://github.com/2459654640-ship-it/vice-city-my-home-mv/releases/latest/download/Vice_City_My_Home_Editable_Project.zip) · [AI 图片素材](https://github.com/2459654640-ship-it/vice-city-my-home-mv/releases/latest/download/Vice_City_My_Home_AI_Assets.zip)
+
 GitHub Releases 中提供高清成片、完整可编辑工程和 AI 图片素材包。工程的 `assets/footage/` 为已剪出的官方来源片段；最终画面还会经过 `media_style.py` 的霓虹化处理及 `film.py` 的动画合成。
 
 - 完整人物先亮相，再用连续扫描转换成同轮廓蒙版。
