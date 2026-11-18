@@ -34,6 +34,7 @@ def encode(job):
  return out
 
 def main():
+ (R/'output').mkdir(exist_ok=True)
  ap=argparse.ArgumentParser();ap.add_argument('--start',type=float,default=0);ap.add_argument('--end',type=float,default=DURATION);ap.add_argument('--workers',type=int,default=4);ap.add_argument('--fps',type=int,default=FPS);ap.add_argument('--name',default='master');args=ap.parse_args();fps=args.fps
  a=round(args.start*fps);b=round(args.end*fps);step=math.ceil((b-a)/args.workers);jobs=[(i,aa,min(b,aa+step),fps,args.name) for i,aa in enumerate(range(a,b,step))]
  with concurrent.futures.ProcessPoolExecutor(max_workers=args.workers) as pool:parts=list(pool.map(encode,jobs))

@@ -30,19 +30,19 @@ class Film:
   a=self.tracks[k];i=np.searchsorted(a,t,side='right')-1
   if i<0:return 0.,0
   return float(min(1,self.strength[k][i]/1.8)*math.exp(-(t-a[i])*decay)),int(i)
- def subtitle(self,im,t):
+ def subtitle(self,im,t,offset_y=0):
   line=next((l for l in self.lyrics if l['start']<=t<l['end']+.28),None)
   if not line:return
-  d=ImageDraw.Draw(im);d.rectangle((0,920,W,H),fill=(2,3,8,255))
+  d=ImageDraw.Draw(im);d.rectangle((0,920-offset_y,W,H-offset_y),fill=(2,3,8,255))
   age=t-line['start'];q=1-(1-clamp(age/.18))**3;rise=round((1-q)*22)
   n=64
   while font(n,'zhbold').getlength(line['zh'])>1740:n-=1
-  center(im,932+rise,line['zh'],n,WHITE,'zhbold',.4+.6*q)
+  center(im,932+rise-offset_y,line['zh'],n,WHITE,'zhbold',.4+.6*q)
   words=line['words'];size=40;total=sum(font(size,'cond').getlength(w['word']) for w in words)+10*(len(words)-1)
   if total>1740:size=int(size*1740/total);total=sum(font(size,'cond').getlength(w['word']) for w in words)+10*(len(words)-1)
   x=(W-total)/2
   for w in words:
-   hot=w['start']<=t<=w['end'];text(im,(x,1015),w['word'],size,PINK if hot else (181,192,209),'cond');x+=font(size,'cond').getlength(w['word'])+10
+   hot=w['start']<=t<=w['end'];text(im,(x,1015-offset_y),w['word'],size,PINK if hot else (181,192,209),'cond');x+=font(size,'cond').getlength(w['word'])+10
  def label(self,im,upper,lower,t,c,xy=(80,180),big=205):
   age=t-self.current_shot['start'];xx=xy[0]-(1-smooth(age/.45))*140
   self.g.typography(im,upper,t,WHITE,xx,xy[1],big)

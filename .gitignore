@@ -11,3 +11,4 @@ analysis/candidates.json
 references/
 frames/
 output/
+analysis/*conform.txt
